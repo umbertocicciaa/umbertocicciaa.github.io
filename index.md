@@ -1,6 +1,6 @@
 ---
 title: "Umberto Domenico Ciccia's Resume"
-layout: "template.html"
+layout: default
 ---
 
 **Rende, Italy** | 📱 **+39 3318865017** | 📧 **[umbertociccia@icloud.com](mailto:umbertociccia@icloud.com)**  
