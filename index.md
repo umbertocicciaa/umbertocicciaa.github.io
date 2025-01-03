@@ -21,6 +21,7 @@ layout: default
 
 ## 🏆 **CERTIFICATIONS**
 
+- **Google Cloud Provider: Cloud Digital Leader**
 - **Microsoft Certified: Azure Fundamentals (AZ-900)** ([Badge](https://www.credly.com/badges/16d46fdf-8e1c-4841-b210-79eed946cc44/public_url))
 - **AWS Certified Cloud Practitioner** ([Badge](https://www.credly.com/badges/a4233ae1-dfa3-4213-b26c-114002aefba4/public_url))
 - **GitHub Actions**
