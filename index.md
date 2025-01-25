@@ -30,9 +30,13 @@ layout: default
 
 ## 💼 **WORK EXPERIENCE**
 
+### **NTT Data Italia** - _Cloud Engineer Intern_
+
+**January 2025 – Present**
+
 ### **Vision One S.r.l** — _Software Engineer Intern_
 
-**July 2024 – Present**
+**July 2024 – December 2024**
 
 - Developed integration tests using **xUnit** and **Testcontainer**, achieving **90% test coverage**.
 - Integrated unit testing into **OneWeb software**, leading to **80% test coverage**.
