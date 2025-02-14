@@ -34,7 +34,7 @@ layout: default
 
 **January 2025 – Present**
 
-### **Vision One S.r.l** — _Software Engineer Intern_
+### **Vision One S.r.l** — _Software Engineer_
 
 **July 2024 – December 2024**
 
@@ -42,7 +42,7 @@ layout: default
 - Integrated unit testing into **OneWeb software**, leading to **80% test coverage**.
 - Designed a project activity scheduling algorithm using **ASP.NET Core** and **Blazor MVVM**, achieving a scheduling time of less than **1 second**.
 
-### **Caliò Informatica S.r.l** — _Software Engineer Intern_
+### **Caliò Informatica S.r.l** — _Software Engineer_
 
 **March 2024 – July 2024**
 
@@ -56,7 +56,7 @@ layout: default
 
 - **Framework:** Angular, Blazor, ASP.NET Core, Spring, .NET, jUnit, xUnit, bUnit, Testcontainer
 - **Technologies:** REST API, Docker, Kubernetes, Github Actions, CICD, Jenkins, SonarQube
-- **Cloud Providers:** AWS, Microsoft Azure, Goocle Cloud Platform
+- **Cloud Providers:** Amazon Web Services, Microsoft Azure, Goocle Cloud Platform
 - **Databases:** SQLServer, MongoDB, PostgreSQL, SQLite, MySQL
 - **Programming Languages:** C#, Java, Python, Bash
 - **Soft Skills:** Problem Solving, Teamwork, Proactivity, Communication
