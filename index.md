@@ -3,7 +3,7 @@ title: "Umberto Domenico Ciccia's Resume"
 layout: default
 ---
 
-**Rende, Italy** | 📱 **+39 3318865017** | 📧 **[umbertociccia@icloud.com](mailto:umbertociccia@icloud.com)**  
+**Rende, Italy** 
 [GitHub](https://github.com/umbertocicciaa) | [LinkedIn](https://www.linkedin.com/in/umberto-domenico-ciccia/)
 
 ---
@@ -34,6 +34,9 @@ layout: default
 ### **NTT Data Italia** - _Cloud Engineer Intern_
 
 **January 2025 – Present**
+
+- Integrated Istio authorization policies into Kumo's backend to enhance multi-cloud security
+- Developed a FinOps solution leveraging Vertex AI to optimize multi-cloud cost efficiency
 
 ### **Vision One S.r.l** — _Software Engineer_
 
