@@ -11,10 +11,17 @@ layout: default
 ## 📚 **EDUCATION**
 
 **Università Della Calabria**, Rende, Italy  
+**Cybersecurity**
+
+- Student Worker
+- Relevant Courses: Cryptography algorithms, Methods and techniques for cyber security, Models and techniques for Big Data
+
+**Università Della Calabria**, Rende, Italy  
 **Computer Engineering** — _109/110, 27.4/30_  
 **July 2021 – July 2024**
 
-- 1 of 3 students graduated in the first available graduation session.
+- Full Time Student
+- Among the top 1/3 of students to graduate in the first available session.
 - Relevant Courses: Web and Mobile Application Development (30L/30), Software Engineering (27/30), Databases (29/30), Information Systems (27/30), Computer Networks (27/30)
 
 ---
