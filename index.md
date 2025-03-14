@@ -42,8 +42,9 @@ layout: default
 
 **January 2025 – Present**
 
-- Integrated Istio authorization policies into Kumo's backend to enhance multi-cloud security
-- Developed a FinOps solution leveraging Vertex AI to optimize multi-cloud cost efficiency
+- Designed and implemented a Quarkus-based microservice leveraging FinOps best practices and the Vertex AI SDK to optimize multi-cloud infrastructure costs based on user-provided scenarios, enhancing cost efficiency and resource allocation.
+- Developed a high-performance microservice using Quarkus to act as an agent for managing Istio policies in a Kubernetes cluster, enabling dynamic policy enforcement, reducing manual intervention, and improving system scalability.
+- Developed a Python script leveraging FinOps best practices and the Vertex AI SDK to generate the lowest-cost multi-cloud infrastructure based on user-provided scenarios, optimizing resource allocation and cost efficiency.
 
 ### **Vision One S.r.l** — _Software Engineer_
 
