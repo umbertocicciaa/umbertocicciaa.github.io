@@ -38,12 +38,12 @@ layout: default
 
 ## 💼 **WORK EXPERIENCE**
 
-### **NTT Data Italia** - _Cloud Engineer Intern_
+### **NTT Data Italia** - _Cloud Engineer_
 
 **January 2025 – Present**
 
 - Designed and implemented a Quarkus-based microservice leveraging FinOps best practices and the Vertex AI SDK to optimize multi-cloud infrastructure costs based on user-provided scenarios, enhancing cost efficiency and resource allocation.
-- Developed a high-performance microservice using Quarkus to act as an agent for managing Istio policies in a Kubernetes cluster, enabling dynamic policy enforcement, reducing manual intervention, and improving system scalability.
+- Developed a high-performance microservice using Quarkus and Crossplane to act as an agent for managing Istio policies in remote Kubernetes clusters, enabling dynamic policy enforcement, reducing manual intervention, and improving system scalability.
 - Developed a Python script leveraging FinOps best practices and the Vertex AI SDK to generate the lowest-cost multi-cloud infrastructure based on user-provided scenarios, optimizing resource allocation and cost efficiency.
 
 ### **Vision One S.r.l** — _Software Engineer_
