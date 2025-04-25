@@ -4,7 +4,7 @@ layout: default
 ---
 
 **Rende, Italy** 
-[GitHub](https://github.com/umbertocicciaa) | [LinkedIn](https://www.linkedin.com/in/umberto-domenico-ciccia/)
+[GitHub](https://github.com/umbertocicciaa) | [LinkedIn](https://www.linkedin.com/in/umberto-domenico-ciccia/) | [Blog](https://umbertocicciaa.github.io/blog-umbertodomenico-ciccia)
 
 ---
 
