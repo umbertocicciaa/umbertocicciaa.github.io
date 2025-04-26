@@ -8,6 +8,63 @@ layout: default
 
 ---
 
+## 📂 **PROJECTS**
+
+- **[Spark + Hadoop Air analysis](https://github.com/umbertocicciaa/air-flights-big-data-unical)**  
+  _Python, Spark, Hadoop, Docker, K8s, Scikit-learn, Streamlit_
+
+  - Set up and configured a Spark + Hadoop cluster on a local environment to process and analyze over 10GB of flight and airport data from OpenSky and OurAirports datasets.
+  - Applied machine learning models including Random Forest classification and K-Means clustering to identify patterns in flight routes, delays, and airport activities using PySpark MLlib.
+  - Designed and deployed a Streamlit dashboard to visualize key insights such as the most used airlines, busiest airports, and classification results, enabling interactive exploration of big data analytics.
+
+- **[Cloud Resume Challenge](https://github.com/umbertocicciaa/cloud-resume-challenge-frontend)**  
+  _Cloud DNS, Load Balancer, SSL/TLS Certificate, Cloud CDN, Cloud Storage, API Gateway, Cloud Functions, Firestore, GitHub Actions, HTML, CSS, JavaScript, Python_
+
+  - Created custom DNS, linked DNS to load balancer and bucket.
+  - Developed a static HTML web page using HTML, JavaScript, and CSS, deployed to Cloud Storage bucket.
+  - Integrated a Firestore database for storing user visitor counter, implementing communication via HTTPS with an API Gateway.
+  - Implemented backend functions that update the database using Cloud Functions and Python.
+
+- **[Exam Online](https://github.com/umbertocicciaa/EsamiOnline)**  
+  _C#, Blazor, ASP.NET Core, gRPC, xUnit, Docker_
+
+  - Developed a microservice-based platform for conducting online exams with real-time assessments.
+  - Achieved 95% unit test coverage and 78% integration test coverage, ensuring high code reliability - and quality.
+  - Utilized gRPC for efficient inter-service communication and optimized system performance.
+  - Employed Docker for containerization, ensuring portability and ease of deployment.
+  - Built the front end with Blazor for seamless user interaction and the back end with ASP.NET Core fo robust API management.
+  - Integrated xUnit for comprehensive unit and integration testing to maintain code integrity.
+
+- **[Instagram Twitter Clone](https://github.com/umbertocicciaa/UnicalSocialNetworkBackend)**  
+  _Java, Angular, PostgreSQL, REST API_
+
+  - Developed a monolithic clone of Instagram/Twitter using a 3-tier MVC architecture.
+  - Implemented JWT authentication and authorization for secure user management.
+  - Enabled users to create posts, like, comment, tweet, and share photos and videos.
+  - Designed and built the backend with RESTful APIs and the frontend with Angular components.
+  - Integrated PostgreSQL for efficient data storage and retrieval.
+  - Employed responsive design principles to ensure smooth user experience across devices.
+  - Focused on scalability and maintainability to support potential future feature additions.
+
+- **[Cloud CI/CD Pipeline](https://github.com/umbertocicciaa/CloudCICDPipeline)**  
+  _C#, Blazor, GitHub Actions, ASP.NET Core_
+
+  - Set up automated workflows using GitHub Actions for CodeQL analysis, CI builds, and Azure deployment.
+  - Configured pipelines for continuous integration and continuous deployment, ensuring streamlined code updates and quality checks.
+  - Integrated Azure for hosting and deploying the ASP.NET Core Blazor application, enhancing deployment - efficiency.
+  - Leveraged CodeQL to perform static code analysis, improving code security and quality during - development.
+
+- **[SongFinder](https://github.com/umbertocicciaa/SongFinder)**  
+  _Kotlin, Android, Genius API, SQLite_
+  - Android app for song search and detailed metadata display.
+  - Developed an Android app for song search and detailed metadata display using the Genius API.
+  - Integrated SQLite for local storage of search history and song data.
+  - Designed intuitive UI for seamless user interaction and quick access to song information.
+  - Enabled song search by title, artist, and lyrics, providing detailed metadata such as album, release year, and genre.
+  - Ensured app performance and responsiveness through efficient API integration and database queries.
+
+---
+
 ## 📚 **EDUCATION**
 
 **Università Della Calabria**, Rende, Italy  
@@ -72,63 +129,6 @@ layout: default
 - **Databases:** SQLServer, MongoDB, PostgreSQL, SQLite, MySQL
 - **Programming Languages:** C#, Java, Python, Bash
 - **Soft Skills:** Problem Solving, Teamwork, Proactivity, Communication
-
----
-
-## 📂 **PROJECTS**
-
-- **[Spark + Hadoop Air analysis](https://github.com/umbertocicciaa/air-flights-big-data-unical)**  
-  _Python, Spark, Hadoop, Docker, K8s, Scikit-learn, Streamlit_
-
-  - Set up and configured a Spark + Hadoop cluster on a local environment to process and analyze over 10GB of flight and airport data from OpenSky and OurAirports datasets.
-  - Applied machine learning models including Random Forest classification and K-Means clustering to identify patterns in flight routes, delays, and airport activities using PySpark MLlib.
-  - Designed and deployed a Streamlit dashboard to visualize key insights such as the most used airlines, busiest airports, and classification results, enabling interactive exploration of big data analytics.
-
-- **[Cloud Resume Challenge](https://github.com/umbertocicciaa/cloud-resume-challenge-frontend)**  
-  _Cloud DNS, Load Balancer, SSL/TLS Certificate, Cloud CDN, Cloud Storage, API Gateway, Cloud Functions, Firestore, GitHub Actions, HTML, CSS, JavaScript, Python_
-
-  - Created custom DNS, linked DNS to load balancer and bucket.
-  - Developed a static HTML web page using HTML, JavaScript, and CSS, deployed to Cloud Storage bucket.
-  - Integrated a Firestore database for storing user visitor counter, implementing communication via HTTPS with an API Gateway.
-  - Implemented backend functions that update the database using Cloud Functions and Python.
-
-- **[Exam Online](https://github.com/umbertocicciaa/EsamiOnline)**  
-  _C#, Blazor, ASP.NET Core, gRPC, xUnit, Docker_
-
-  - Developed a microservice-based platform for conducting online exams with real-time assessments.
-  - Achieved 95% unit test coverage and 78% integration test coverage, ensuring high code reliability - and quality.
-  - Utilized gRPC for efficient inter-service communication and optimized system performance.
-  - Employed Docker for containerization, ensuring portability and ease of deployment.
-  - Built the front end with Blazor for seamless user interaction and the back end with ASP.NET Core fo robust API management.
-  - Integrated xUnit for comprehensive unit and integration testing to maintain code integrity.
-
-- **[Instagram Twitter Clone](https://github.com/umbertocicciaa/UnicalSocialNetworkBackend)**  
-  _Java, Angular, PostgreSQL, REST API_
-
-  - Developed a monolithic clone of Instagram/Twitter using a 3-tier MVC architecture.
-  - Implemented JWT authentication and authorization for secure user management.
-  - Enabled users to create posts, like, comment, tweet, and share photos and videos.
-  - Designed and built the backend with RESTful APIs and the frontend with Angular components.
-  - Integrated PostgreSQL for efficient data storage and retrieval.
-  - Employed responsive design principles to ensure smooth user experience across devices.
-  - Focused on scalability and maintainability to support potential future feature additions.
-
-- **[Cloud CI/CD Pipeline](https://github.com/umbertocicciaa/CloudCICDPipeline)**  
-  _C#, Blazor, GitHub Actions, ASP.NET Core_
-
-  - Set up automated workflows using GitHub Actions for CodeQL analysis, CI builds, and Azure deployment.
-  - Configured pipelines for continuous integration and continuous deployment, ensuring streamlined code updates and quality checks.
-  - Integrated Azure for hosting and deploying the ASP.NET Core Blazor application, enhancing deployment - efficiency.
-  - Leveraged CodeQL to perform static code analysis, improving code security and quality during - development.
-
-- **[SongFinder](https://github.com/umbertocicciaa/SongFinder)**  
-  _Kotlin, Android, Genius API, SQLite_
-  - Android app for song search and detailed metadata display.
-  - Developed an Android app for song search and detailed metadata display using the Genius API.
-  - Integrated SQLite for local storage of search history and song data.
-  - Designed intuitive UI for seamless user interaction and quick access to song information.
-  - Enabled song search by title, artist, and lyrics, providing detailed metadata such as album, release year, and genre.
-  - Ensured app performance and responsiveness through efficient API integration and database queries.
 
 ---
 
