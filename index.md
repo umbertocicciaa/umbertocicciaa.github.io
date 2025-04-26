@@ -20,10 +20,10 @@ layout: default
 -	**[Automation Lab](https://github.com/umbertocicciaa/automation-lab)**
   Terraform, AWS, GC
 
-  -	Developed Terraform exercises covering AWS, GCP resources, and Terraform modules.
-  -	Applied advanced Terraform features like for_each, modules, and complex syntax to create reusable and scalable infrastructure code.
-  -	Designed IaC solutions to automate cloud resource provisioning across multiple cloud providers.
-  - Focused on best practices for modularization, code reusability, and multi-cloud deployments.
+ - Developed Terraform exercises covering AWS, GCP resources, and Terraform modules.
+ - Applied advanced Terraform features like for_each, modules, and complex syntax to create reusable and scalable infrastructure code.
+ - Designed IaC solutions to automate cloud resource provisioning across multiple cloud providers.
+ - Focused on best practices for modularization, code reusability, and multi-cloud deployments.
 
 - **[Cloud Resume Challenge](https://github.com/umbertocicciaa/cloud-resume-challenge-frontend)**  
   _Cloud DNS, Load Balancer, SSL/TLS Certificate, Cloud CDN, Cloud Storage, API Gateway, Cloud Functions, Firestore, GitHub Actions, HTML, CSS, JavaScript, Python_
