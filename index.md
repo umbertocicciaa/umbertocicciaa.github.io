@@ -17,7 +17,7 @@ layout: default
   - Applied machine learning models including Random Forest classification and K-Means clustering to identify patterns in flight routes, delays, and airport activities using PySpark MLlib.
   - Designed and deployed a Streamlit dashboard to visualize key insights such as the most used airlines, busiest airports, and classification results, enabling interactive exploration of big data analytics.
 
--	**[Automation Lab](https://github.com/umbertocicciaa/automation-lab)
+-	**[Automation Lab](https://github.com/umbertocicciaa/automation-lab)**
   _Terraform, AWS, GCP, Kubernetes_
 
   -	Developed Terraform exercises covering AWS, GCP resources, and Terraform modules.
