@@ -17,6 +17,14 @@ layout: default
   - Applied machine learning models including Random Forest classification and K-Means clustering to identify patterns in flight routes, delays, and airport activities using PySpark MLlib.
   - Designed and deployed a Streamlit dashboard to visualize key insights such as the most used airlines, busiest airports, and classification results, enabling interactive exploration of big data analytics.
 
+-	**[Automation Lab](https://github.com/umbertocicciaa/automation-lab)
+  _Terraform, AWS, GCP, Kubernetes_
+
+  -	Developed Terraform exercises covering AWS, GCP resources, and Terraform modules.
+  -	Applied advanced Terraform features like for_each, modules, and complex syntax to create reusable and scalable infrastructure code.
+  -	Designed IaC solutions to automate cloud resource provisioning across multiple cloud providers.
+  - Focused on best practices for modularization, code reusability, and multi-cloud deployments.
+
 - **[Cloud Resume Challenge](https://github.com/umbertocicciaa/cloud-resume-challenge-frontend)**  
   _Cloud DNS, Load Balancer, SSL/TLS Certificate, Cloud CDN, Cloud Storage, API Gateway, Cloud Functions, Firestore, GitHub Actions, HTML, CSS, JavaScript, Python_
 
