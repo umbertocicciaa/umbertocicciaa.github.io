@@ -18,7 +18,7 @@ layout: default
   - Designed and deployed a Streamlit dashboard to visualize key insights such as the most used airlines, busiest airports, and classification results, enabling interactive exploration of big data analytics.
 
 -	**[Automation Lab](https://github.com/umbertocicciaa/automation-lab)**
-  _Terraform, AWS, GCP_
+  Terraform, AWS, GC
 
   -	Developed Terraform exercises covering AWS, GCP resources, and Terraform modules.
   -	Applied advanced Terraform features like for_each, modules, and complex syntax to create reusable and scalable infrastructure code.
