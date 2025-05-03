@@ -137,6 +137,8 @@ layout: default
 ## 🌟 **EXTRA ACTIVITIES**
 
 - Contributed to **GitHub Actions Marketplace**.
+- Contributed to k8s source code.
+- Contribute to Jenkins source code.
 - Supported **UnicalLoveTelegram**, assisting University of Calabria students.
 
 ---
