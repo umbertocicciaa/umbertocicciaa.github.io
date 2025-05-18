@@ -13,9 +13,9 @@ layout: default
 - **[AWS MlOps](https://github.com/umbertocicciaa/aws-mlops)**  
   _Python, AWS, Sagemaker, Glue, S3, Lambda, Eventbridge_
 
-- Designed and deployed an MLOps pipeline using AWS SageMaker to automate the training and evaluation of regression models on Parquet data from S3, ensuring reproducible workflows.
-- Integrated model performance evaluation with conditional logic to trigger automated model registration and deployment using Lambda functions, enhancing reliability and control.
-- Provisioned infrastructure with Terraform, enabling end-to-end automation of the ML pipeline, including model deployment to a real-time REST API endpoint for production predictions.
+  - Designed and deployed an MLOps pipeline using AWS SageMaker to automate the training and  evaluation of regression models on Parquet data from S3, ensuring reproducible workflows.
+  - Integrated model performance evaluation with conditional logic to trigger automated model   registration and deployment using Lambda functions, enhancing reliability and control.
+  - Provisioned infrastructure with Terraform, enabling end-to-end automation of the ML pipeline, including model deployment to a real-time REST API endpoint for production predictions.
 
 - **[Spark + Hadoop Air analysis](https://github.com/umbertocicciaa/air-flights-big-data-unical)**  
   _Python, Spark, Hadoop, Docker, K8s, Scikit-learn, Streamlit_
