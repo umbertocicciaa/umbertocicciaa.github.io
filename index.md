@@ -109,6 +109,7 @@ layout: default
 
 **January 2025 – Present**
 
+- Partecipated to the implementation of an a hybrid on-premises/AWS cloud infrastructure using Terraform integrating over 20 services (S3, DMS, Aurora, ACM, SQS, VPC, ECR, EKS, etc.)
 - Designed and implemented a Quarkus-based microservice leveraging FinOps best practices and the Vertex AI SDK to optimize multi-cloud infrastructure costs based on user-provided scenarios, enhancing cost efficiency and resource allocation.
 - Developed a high-performance microservice using Quarkus and Crossplane to act as an agent for managing Istio policies in remote Kubernetes clusters, enabling dynamic policy enforcement, reducing manual intervention, and improving system scalability.
 - Developed a Python script leveraging FinOps best practices and the Vertex AI SDK to generate the lowest-cost multi-cloud infrastructure based on user-provided scenarios, optimizing resource allocation and cost efficiency.
