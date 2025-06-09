@@ -27,10 +27,10 @@ layout: default
   - Provisioned infrastructure with Terraform, enabling end-to-end automation of the ML pipeline, including model deployment to a real-time REST API endpoint for production predictions.
   - Deployed a streamlit frontend in a kubernetes cluster for make and visualize prediction.
 
-- **[Spark + Hadoop Air analysis](https://github.com/umbertocicciaa/air-flights-big-data-unical)**  
-  _Python, Spark, Hadoop, Docker, K8s, Scikit-learn, Streamlit_
+- **[Spark + Hadoop + Hive Air analysis](https://github.com/umbertocicciaa/air-flights-big-data-unical)**  
+  _Python, Spark, Hadoop, Hive, Docker, K8s, Scikit-learn, Streamlit_
 
-  - Set up and configured a Spark + Hadoop cluster on a local environment to process and analyze over 10GB of flight and airport data from OpenSky and OurAirports datasets.
+  - Set up and configured a Spark + Hadoop + Hive cluster on a local environment to process and analyze over 10GB of flight and airport data from OpenSky and OurAirports datasets.
   - Applied machine learning models including Random Forest classification and K-Means clustering to identify patterns in flight routes, delays, and airport activities using PySpark MLlib.
   - Designed and deployed a Streamlit dashboard to visualize key insights such as the most used airlines, busiest airports, and classification results, enabling interactive exploration of big data analytics.
 
