@@ -102,6 +102,7 @@ layout: default
 
 ## 🏆 **CERTIFICATIONS**
 
+- **Terraform Associate (003)** ([Badge]())
 - **Google Associate Cloud Engineer** ([Badge](https://www.credly.com/badges/91899eaf-6375-4525-9c8f-0c2704e95d36/public_url))
 - **AWS Certified Solutions Architect – Associate** ([Badge](https://www.credly.com/badges/8c0a3ea9-42f6-46cc-9c66-f91f0e434df2/linked_in_profile))
 - **Google Cloud Provider: Cloud Digital Leader** ([Badge](https://www.credly.com/badges/f21b57ac-11c7-4477-947d-eb2eafbdd0c8/public_url))
