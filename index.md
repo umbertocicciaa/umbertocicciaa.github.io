@@ -11,28 +11,30 @@ layout: default
 ## 📂 **PROJECTS**
 
 - **[QuestMasterAI](https://github.com/umbertocicciaa/QuestMasterAI)**  
-  _Python, Ollama, Docker_
+  _Python, OpenAi, Github Actions, CICD, Docker_
 
-  - Developed an AI-powered platform for automated quest and task generation using Python and Ollama, enabling dynamic content creation for interactive applications.
+  - Developed an AI-powered platform for automated quest and task generation using Python and OpenAi's Apis, enabling dynamic content creation for interactive applications.
   - Containerized the solution with Docker for seamless deployment and scalability across different environments.
-  - Integrated Ollama to leverage advanced language models, enhancing the quality and relevance of generated quests.
+  - Integrated OpenAI to leverage advanced language models, enhancing the quality and relevance of generated quests.
   - Designed the system to be developer-friendly, supporting easy customization and extension for various use cases such as games, productivity tools, or educational platforms.
   - Focused on modular architecture to facilitate integration with external APIs and frontends, promoting flexibility and reusability.
 
 - **[AWS MlOps](https://github.com/umbertocicciaa/aws-mlops)**  
-  _Python, AWS, Sagemaker, Glue, S3, Lambda, Eventbridge, Kubernetes_
+  _MlOps, Python, AWS, Sagemaker, Glue, S3, Lambda, Eventbridge, Github Actions, CICD, Kubernetes_
 
   - Designed and deployed an MLOps pipeline using AWS SageMaker to automate the training and  evaluation of regression models on Parquet data from S3, ensuring reproducible workflows.
   - Integrated model performance evaluation with conditional logic to trigger automated model   registration and deployment using Lambda functions, enhancing reliability and control.
   - Provisioned infrastructure with Terraform, enabling end-to-end automation of the ML pipeline, including model deployment to a real-time REST API endpoint for production predictions.
   - Deployed a streamlit frontend in a kubernetes cluster for make and visualize prediction.
+  - Developed a CICD pipeline with Github Actions, build and deploy new app images to Github container registry
 
 - **[Spark + Hadoop + Hive Air analysis](https://github.com/umbertocicciaa/air-flights-big-data-unical)**  
-  _Python, Spark, Hadoop, Hive, Docker, K8s, Scikit-learn, Streamlit_
+  _Python, Spark, Hadoop, Hive, Docker, K8s, CICD, Github Actions, Scikit-learn, Streamlit_
 
   - Set up and configured a Spark + Hadoop + Hive cluster on a local environment to process and analyze over 10GB of flight and airport data from OpenSky and OurAirports datasets.
   - Applied machine learning models including Random Forest classification and K-Means clustering to identify patterns in flight routes, delays, and airport activities using PySpark MLlib.
   - Designed and deployed a Streamlit dashboard to visualize key insights such as the most used airlines, busiest airports, and classification results, enabling interactive exploration of big data analytics.
+  - Developed a CICD pipeline with Github Actions, build and deploy new app images to Github container registry
 
 - **[Automation Lab](https://github.com/umbertocicciaa/automation-lab)**  
   _Terraform, AWS, GCP_
@@ -102,9 +104,9 @@ layout: default
 
 ## 🏆 **CERTIFICATIONS**
 
-- **Terraform Associate (003)** ([Badge]())
+- **Terraform Associate (003)** ([Badge](https://www.credly.com/badges/72c86cb9-13c6-4ee4-be7a-040c0609fe00/public_url))
 - **Google Associate Cloud Engineer** ([Badge](https://www.credly.com/badges/91899eaf-6375-4525-9c8f-0c2704e95d36/public_url))
-- **AWS Certified Solutions Architect – Associate** ([Badge](https://www.credly.com/badges/8c0a3ea9-42f6-46cc-9c66-f91f0e434df2/linked_in_profile))
+- **AWS Certified Solutions Architect – Associate** ([Badge](https://www.credly.com/badges/8c0a3ea9-42f6-46cc-9c66-f91f0e434df2/public_url))
 - **Google Cloud Provider: Cloud Digital Leader** ([Badge](https://www.credly.com/badges/f21b57ac-11c7-4477-947d-eb2eafbdd0c8/public_url))
 - **Microsoft Certified: Azure Fundamentals (AZ-900)** ([Badge](https://learn.microsoft.com/it-it/users/umbertodomenicociccia-8738/credentials/f5bc89b9bbcf5b9e?ref=https%3A%2F%2Fwww.linkedin.com%2F))
 - **AWS Certified Cloud Practitioner** ([Badge](https://www.credly.com/badges/16d46fdf-8e1c-4841-b210-79eed946cc44/public_url))
