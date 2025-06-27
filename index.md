@@ -28,6 +28,8 @@ layout: default
   - Deployed a streamlit frontend in a kubernetes cluster for make and visualize prediction.
   - Developed a CICD pipeline with Github Actions, build and deploy new app images to Github container registry
 
+  ![Demo](/static/mlops.png)
+
 - **[Spark + Hadoop + Hive Air analysis](https://github.com/umbertocicciaa/air-flights-big-data-unical)**  
   _Python, Spark, Hadoop, Hive, Docker, K8s, CICD, Github Actions, Scikit-learn, Streamlit_
 
@@ -36,6 +38,8 @@ layout: default
   - Designed and deployed a Streamlit dashboard to visualize key insights such as the most used airlines, busiest airports, and classification results, enabling interactive exploration of big data analytics.
   - Developed a CICD pipeline with Github Actions, build and deploy new app images to Github container registry
 
+  ![Demo](/static/bigdata.png)
+
 - **[Automation Lab](https://github.com/umbertocicciaa/automation-lab)**  
   _Terraform, AWS, GCP_
 
@@ -43,16 +47,6 @@ layout: default
   - Applied advanced Terraform features like for_each, modules, and complex syntax to create reusable and scalable infrastructure code.
   - Designed IaC solutions to automate cloud resource provisioning across multiple cloud providers.
   - Focused on best practices for modularization, code reusability, and multi-cloud deployments.
-
-- **[Exam Online](https://github.com/umbertocicciaa/EsamiOnline)**  
-  _C#, Blazor, ASP.NET Core, gRPC, xUnit, Docker_
-
-  - Developed a microservice-based platform for conducting online exams with real-time assessments.
-  - Achieved 95% unit test coverage and 78% integration test coverage, ensuring high code reliability - and quality.
-  - Utilized gRPC for efficient inter-service communication and optimized system performance.
-  - Employed Docker for containerization, ensuring portability and ease of deployment.
-  - Built the front end with Blazor for seamless user interaction and the back end with ASP.NET Core fo robust API management.
-  - Integrated xUnit for comprehensive unit and integration testing to maintain code integrity.
 
 - **[Instagram Twitter Clone](https://github.com/umbertocicciaa/UnicalSocialNetworkBackend)**  
   _Java, Angular, PostgreSQL, REST API_
