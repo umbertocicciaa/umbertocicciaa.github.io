@@ -13,7 +13,7 @@ layout: default
 - **[QuestMasterAI](https://github.com/umbertocicciaa/QuestMasterAI)**  
   _Python, OpenAi, Github Actions, CICD, Docker_
 
-  - Developed an AI-powered platform for automated quest and task generation using Python and OpenAi's Apis, enabling dynamic content creation for interactive applications.
+  - Developed an AI-powered platform  for automated quest and task generation using Python and OpenAi's Apis, enabling dynamic content creation for interactive applications, throught CLI.
   - Containerized the solution with Docker for seamless deployment and scalability across different environments.
   - Integrated OpenAI to leverage advanced language models, enhancing the quality and relevance of generated quests.
   - Designed the system to be developer-friendly, supporting easy customization and extension for various use cases such as games, productivity tools, or educational platforms.
@@ -28,7 +28,14 @@ layout: default
   - Deployed a streamlit frontend in a kubernetes cluster for make and visualize prediction.
   - Developed a CICD pipeline with Github Actions, build and deploy new app images to Github container registry
 
-  ![Demo](/static/mlops.png)
+- **[Purchase Manager](https://github.com/umbertocicciaa/purchase-manager)**  
+  _Python, Gcp, Cloud SQL, Cloud Storage, Cloud Run, Github Actions, Terraform, CICD_
+
+  - Purchase Manager is a web application designed for efficient management of purchases, allowing users to track, organize, and analyze purchase data.
+  - Built using modern web technologies, leveraging Streamlit and Fastapi for robust, type-safe client and server logic.
+  - Utilizes Fastapi for backend services, providing scalability and seamless integration with databases.
+  - Employs Streamlit for a dynamic, responsive user interface, ensuring an intuitive and engaging user experience.
+  - Supports persistent data storage and advanced search/filter capabilities, enabling users to manage purchases with ease.
 
 - **[Spark + Hadoop + Hive Air analysis](https://github.com/umbertocicciaa/air-flights-big-data-unical)**  
   _Python, Spark, Hadoop, Hive, Docker, K8s, CICD, Github Actions, Scikit-learn, Streamlit_
@@ -37,8 +44,6 @@ layout: default
   - Applied machine learning models including Random Forest classification and K-Means clustering to identify patterns in flight routes, delays, and airport activities using PySpark MLlib.
   - Designed and deployed a Streamlit dashboard to visualize key insights such as the most used airlines, busiest airports, and classification results, enabling interactive exploration of big data analytics.
   - Developed a CICD pipeline with Github Actions, build and deploy new app images to Github container registry
-
-  ![Demo](/static/bigdata.png)
 
 - **[Automation Lab](https://github.com/umbertocicciaa/automation-lab)**  
   _Terraform, AWS, GCP_
@@ -114,7 +119,10 @@ layout: default
 
 #### **January 2025 – Present**
 
-- Partecipated to the implementation of an a hybrid on-premises/AWS cloud infrastructure using Terraform integrating over 20 services (S3, DMS, Aurora, ACM, SQS, VPC, ECR, EKS, etc.)
+- Engineered and developed a Jenkins pipeline that allows the deployment of new versions of a dataflow pipeline on Google Cloud for a client operating in the food industry.
+- Developed a highly reliable network infrastructure using Terraform, Google Partner Interconnect, VPC peering, and VPN tunnel to manage digital payments for a client operating in the food industry.
+- Implement a full-stack web app to visualize and quantify internal Azure subscription costs. Deploy with Azure DevOps on Azure Web App.
+- Implemented a hybrid on-premise/cloud AWS infrastructure using Terraform, integrating over 10 AWS services (S3, DMS, Aurora, ACM, SQS, VPC, ECR, EKS, etc.) for a digital marketing and online communication customer. Author of the Terraform EC2, SQS and Glue modules of the infrastructure.
 - Designed and implemented a Quarkus-based microservice leveraging FinOps best practices and the Vertex AI SDK to optimize multi-cloud infrastructure costs based on user-provided scenarios, enhancing cost efficiency and resource allocation.
 - Developed a high-performance microservice using Quarkus and Crossplane to act as an agent for managing Istio policies in remote Kubernetes clusters, enabling dynamic policy enforcement, reducing manual intervention, and improving system scalability.
 - Developed a Python script leveraging FinOps best practices and the Vertex AI SDK to generate the lowest-cost multi-cloud infrastructure based on user-provided scenarios, optimizing resource allocation and cost efficiency.
