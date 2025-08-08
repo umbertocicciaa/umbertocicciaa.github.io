@@ -35,10 +35,12 @@ layout: default
 
   - Planned and documented next-phase enhancements: deployment of Grafana, Prometheus, and observability stack.
 
-  ![Homepage](/static/homepage.png)
-  ![Smoketest](/static/smoketest-node.png)
-  ![Smoketest](/static/smometest-nginx.png)
-  ![Proxy](/static/smoketest-proxy.png)
+  <div class="project-images">
+    <img src="/static/homepage.png" alt="Homepage Application">
+    <img src="/static/smoketest-node.png" alt="Smoketest Node">
+    <img src="/static/smometest-nginx.png" alt="Smoketest Nginx">
+    <img src="/static/smoketest-proxy.png" alt="Smoketest Proxy">
+  </div>
 
 - **[QuestMasterAI](https://github.com/umbertocicciaa/QuestMasterAI)**  
   _Python, OpenAi, Github Actions, CICD, Docker_
@@ -58,7 +60,7 @@ layout: default
   - Deployed a streamlit frontend in a kubernetes cluster for make and visualize prediction.
   - Developed a CICD pipeline with Github Actions, build and deploy new app images to Github container registry
 
-  ![Demo](/static/mlops.png)
+  <img src="/static/mlops.png" alt="MLOps Demo" class="project-image">
 
 - **[Purchase Manager](https://github.com/umbertocicciaa/purchase-manager)**  
   _Python, Gcp, Cloud SQL, Cloud Storage, Cloud Run, Github Actions, Terraform, CICD_
@@ -77,7 +79,7 @@ layout: default
   - Designed and deployed a Streamlit dashboard to visualize key insights such as the most used airlines, busiest airports, and classification results, enabling interactive exploration of big data analytics.
   - Developed a CICD pipeline with Github Actions, build and deploy new app images to Github container registry
 
-  ![Demo](/static/bigdata.png)
+  <img src="/static/bigdata.png" alt="Big Data Demo" class="project-image">
 
 - **[Automation Lab](https://github.com/umbertocicciaa/automation-lab)**  
   _Terraform, AWS, GCP_
