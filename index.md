@@ -36,6 +36,7 @@ layout: default
   - Planned and documented next-phase enhancements: deployment of Grafana, Prometheus, and observability stack.
 
   <div class="project-images">
+    <img src="/static/hardware.png" alt="Hardware">
     <img src="/static/homepage.png" alt="Homepage Application">
     <img src="/static/smoketest-node.png" alt="Smoketest Node">
     <img src="/static/smometest-nginx.png" alt="Smoketest Nginx">
