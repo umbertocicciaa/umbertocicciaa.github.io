@@ -10,6 +10,36 @@ layout: default
 
 ## 📂 **PROJECTS**
 
+- **[Homelab](https://github.com/umbertocicciaa/homelab-utils)**
+  _SSH, K3S, K8S, IoT, Proxy, DHCP, TCP/IP, Lan, Networking, Hardware, Raspberry Pi 4_
+
+  - Designed and deployed a 2-node Raspberry Pi 4 cluster (1 master, 1 worker) running Raspberry Pi OS with SSH enabled for remote management.
+
+  - Built a custom mini-rack installation with active cooling (dual fans) and a dedicated Gigabit network switch for stable, high-throughput LAN communication.
+
+  - Configured DHCP server with static IP assignments and hostname resolution for cluster nodes and proxy PC.
+
+  - Established secure SSH access from a proxy PC to each cluster node for streamlined administration.
+
+  - Installed and configured K3s lightweight Kubernetes: deployed K3s server on master node, joined worker node via token-based authentication.
+
+  - Verified cluster readiness with smoke test deployments (pods, services, and basic networking validation).
+
+  - Set up kubeconfig on proxy PC to enable external kubectl access to the cluster.
+
+  - Deployed a custom “Homepage” application as a Kubernetes workload, with service exposure and ingress configuration.
+
+  - Configured Traefik ingress controller (default in K3s) to expose the application via HTTP and HTTPS.
+
+  - Managed DNS resolution for ingress access by updating local /etc/hosts mapping to custom domain (homepage.local).
+
+  - Planned and documented next-phase enhancements: deployment of Grafana, Prometheus, and observability stack.
+
+  ![Homepage](/static/homepage.png)
+  ![Smoketest](/static/smoketest-node.png)
+  ![Smoketest](/static/smometest-nginx.png)
+  ![Proxy](/static/smoketest-proxy.png)
+
 - **[QuestMasterAI](https://github.com/umbertocicciaa/QuestMasterAI)**  
   _Python, OpenAi, Github Actions, CICD, Docker_
 
@@ -28,6 +58,8 @@ layout: default
   - Deployed a streamlit frontend in a kubernetes cluster for make and visualize prediction.
   - Developed a CICD pipeline with Github Actions, build and deploy new app images to Github container registry
 
+  ![Demo](/static/mlops.png)
+
 - **[Purchase Manager](https://github.com/umbertocicciaa/purchase-manager)**  
   _Python, Gcp, Cloud SQL, Cloud Storage, Cloud Run, Github Actions, Terraform, CICD_
 
@@ -44,6 +76,8 @@ layout: default
   - Applied machine learning models including Random Forest classification and K-Means clustering to identify patterns in flight routes, delays, and airport activities using PySpark MLlib.
   - Designed and deployed a Streamlit dashboard to visualize key insights such as the most used airlines, busiest airports, and classification results, enabling interactive exploration of big data analytics.
   - Developed a CICD pipeline with Github Actions, build and deploy new app images to Github container registry
+
+  ![Demo](/static/bigdata.png)
 
 - **[Automation Lab](https://github.com/umbertocicciaa/automation-lab)**  
   _Terraform, AWS, GCP_
