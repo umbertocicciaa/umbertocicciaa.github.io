@@ -114,11 +114,13 @@ layout: default
 
 ## 📚 **EDUCATION**
 
+<!--
 **Università Della Calabria**, Rende, Italy  
 **Cybersecurity**
 
 - Student Worker
 - Relevant Courses: Cryptography algorithms, Methods and techniques for cyber security, Models and techniques for Big Data
+-->
 
 **Università Della Calabria**, Rende, Italy  
 **Computer Engineering** — _109/110, 27.4/30_  
@@ -143,6 +145,7 @@ layout: default
 - **GitHub Actions** ([Badge](https://www.credly.com/badges/a4233ae1-dfa3-4213-b26c-114002aefba4/public_url))
 
 ---
+<!--
 
 ## 💼 **WORK EXPERIENCE**
 
@@ -193,3 +196,5 @@ layout: default
 - Supported **UnicalLoveTelegram**, assisting University of Calabria students.
 
 ---
+
+-->
