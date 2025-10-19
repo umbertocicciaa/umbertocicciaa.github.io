@@ -3,12 +3,19 @@ title: "Umberto Domenico Ciccia's Resume"
 layout: default
 ---
 
-**Rende, Italy**
 [GitHub](https://github.com/umbertocicciaa) | [LinkedIn](https://www.linkedin.com/in/umberto-domenico-ciccia/) | [Blog](https://umbertocicciaa.github.io/blog-umbertodomenico-ciccia)
 
 ---
 
 ## 📂 **PROJECTS**
+
+- **[Easy MLOps](https://github.com/umbertocicciaa/easy-mlops)**  
+  _Python, FastAPI, CLI, Docker, MLOps_
+
+  - Created an opinionated framework that automates preprocessing, training, deployment, and observability, accessible through a unified CLI or Python API.
+  - Implemented a distributed runtime where a FastAPI master service coordinates worker agents to execute long-running ML workflows.
+  - Designed reproducible deployment outputs with versioned artifacts, monitoring logs, and configurable YAML-driven pipelines.
+  - Curated developer experience with Makefile shortcuts, comprehensive MkDocs documentation, and runnable examples that accelerate onboarding.
 
 - **[Homelab](https://github.com/umbertocicciaa/homelab-utils)**
   _SSH, K3S, K8S, IoT, Proxy, DHCP, TCP/IP, Lan, Networking, Hardware, Raspberry Pi 4, Jenkins, Grafana, Prometheus_
