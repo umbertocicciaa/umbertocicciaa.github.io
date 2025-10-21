@@ -3,205 +3,467 @@ title: "Umberto Domenico Ciccia's Resume"
 layout: default
 ---
 
-[GitHub](https://github.com/umbertocicciaa) | [LinkedIn](https://www.linkedin.com/in/umberto-domenico-ciccia/) | [Blog](https://umbertocicciaa.github.io/blog-umbertodomenico-ciccia)
-
----
-
-## 📂 **PROJECTS**
-
-- **[Easy MLOps](https://github.com/umbertocicciaa/easy-mlops)**  
-  _Python, FastAPI, CLI, Docker, MLOps_
-
-  - Created an opinionated framework that automates preprocessing, training, deployment, and observability, accessible through a unified CLI or Python API.
-  - Implemented a distributed runtime where a FastAPI master service coordinates worker agents to execute long-running ML workflows.
-  - Designed reproducible deployment outputs with versioned artifacts, monitoring logs, and configurable YAML-driven pipelines.
-  - Curated developer experience with Makefile shortcuts, comprehensive MkDocs documentation, and runnable examples that accelerate onboarding.
-
-- **[Homelab](https://github.com/umbertocicciaa/homelab-utils)**
-  _SSH, K3S, K8S, IoT, Proxy, DHCP, TCP/IP, Lan, Networking, Hardware, Raspberry Pi 4, Jenkins, Grafana, Prometheus_
-
-  - Designed and deployed a 2-node Raspberry Pi 4 cluster (1 master, 1 worker) running Raspberry Pi OS with SSH enabled for remote management.
-  - Built a custom mini-rack installation with active cooling (dual fans) and a dedicated Gigabit network switch for stable, high-throughput LAN communication.
-  - Configured DHCP server with static IP assignments and hostname resolution for cluster nodes and proxy PC.
-  - Established secure SSH access from a proxy PC to each cluster node for streamlined administration.
-  - Installed and configured K3s lightweight Kubernetes: deployed K3s server on master node, joined worker node via token-based authentication.
-  - Verified cluster readiness with smoke test deployments (pods, services, and basic networking validation).
-  - Set up kubeconfig on proxy PC to enable external kubectl access to the cluster.
-  - Deployed a custom “Homepage” application as a Kubernetes workload, with service exposure and ingress configuration.
-  - Configured Traefik ingress controller (default in K3s) to expose the application via HTTP and HTTPS.
-  - Managed DNS resolution for ingress access by updating local /etc/hosts mapping to custom domain (homepage.local).
-  - Deployment of Grafana, Prometheus, and observability stack.
-  - Deployment of Jenkins.
-
-  <div class="project-images">
-    <img src="/static/hardware.png" alt="Hardware">
-    <img src="/static/homepage.png" alt="Homepage Application">
-    <img src="/static/grafana.png" alt="Homepage Application">
-    <img src="/static/smoketest-node.png" alt="Smoketest Node">
-    <img src="/static/smometest-nginx.png" alt="Smoketest Nginx">
-    <img src="/static/smoketest-proxy.png" alt="Smoketest Proxy">
+<section class="hero" id="about">
+  <div class="hero-intro">
+    <div class="hero-meta">
+      <span class="pill">Cloud Engineering</span>
+      <span class="pill">System Engineering</span>
+      <span class="pill">Software Engineering</span>
+      <span class="pill">Italian</span>
+    </div>
+    <h1>Hi, I'm Umberto</h1>
+    <p>
+      I build production-ready ML platforms and resilient cloud infrastructure. I specialise in taking ideas from notebooks to reliable products. From opinionated MLOps frameworks and distributed runtimes,
+      to hybrid multi-cloud architectures and developer tooling, I focus on delivering systems that people actually love to ship with.
+    </p>
+    <div class="hero-actions">
+      <a class="button" href="mailto:umbertocicciaa@gmail.com">Let's work together</a>
+      <a class="button is-secondary" href="https://github.com/umbertocicciaa" target="_blank" rel="noopener">GitHub</a>
+      <a class="button is-secondary" href="https://www.linkedin.com/in/umberto-domenico-ciccia/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="button is-secondary" href="https://umbertocicciaa.github.io/blog-umbertodomenico-ciccia" target="_blank" rel="noopener">Blog</a>
+    </div>
   </div>
+  <aside class="hero-aside">
+    <div class="stat">
+      <span>Current focus</span>
+      <strong> Improve cloud computing world </strong>
+    </div> 
+    <div class="stat">
+      <span>Certifications</span>
+      <strong>CKA · TERRAFORM · AWS · AZURE · GCP </strong>
+    </div>
+    <ul>
+      <li>Designing high-availability, multi-cloud infrastructure with Terraform, Crossplane, and Kubernetes.</li>
+      <li>Building automated CI/CD pipelines across AWS, Azure, and Google Cloud.</li>
+      <li>Shipping opinionated tooling that accelerates teams and keeps systems observable.</li>
+      <li>Building modern, robust software that can change people's lives.</li>
+    </ul>
+  </aside>
+</section>
 
-- **[QuestMasterAI](https://github.com/umbertocicciaa/QuestMasterAI)**  
-  _Python, OpenAi, Github Actions, CICD, Docker_
+<section id="projects">
+  <div class="section-heading">
+    <h2>Highlighted Projects</h2>
+    <p class="muted">Opinionated tooling, hands-on infrastructure, and products that turn experiments into outcomes.</p>
+  </div>
+  <div class="grid projects">
+    <article class="card">
+      <h3>Easy MLOps</h3>
+      <p>An end-to-end MLOps framework that automates experimentation, deployment, and observability through a unified CLI and Python API.</p>
+      <ul>
+        <li>Distributed runtime orchestrated via FastAPI to coordinate long-running ML workflows with remote workers.</li>
+        <li>Artifact versioning, reproducible pipeline outputs, and MkDocs-powered documentation for rapid onboarding.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>Python</li>
+        <li>FastAPI</li>
+        <li>Docker</li>
+        <li>MLflow</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/easy-mlops" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+    <article class="card">
+      <h3>Homelab Platform</h3>
+      <p>A Raspberry Pi powered lab with Kubernetes, observability stack, and GitOps delivery for experimentation and edge workloads.</p>
+      <ul>
+        <li>Two-node Pi cluster with active cooling, dedicated networking, and automated K3s provisioning.</li>
+        <li>Grafana, Prometheus, Jenkins, and Traefik ingress exposed via custom DNS and TLS.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>K3s</li>
+        <li>Grafana</li>
+        <li>Traefik</li>
+        <li>Raspberry Pi</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/homelab-utils" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+    <article class="card">
+      <h3>QuestMasterAI</h3>
+      <p>CLI-first AI assistant that generates contextual quests and tasks using OpenAI, packaged for repeatable deployments.</p>
+      <ul>
+        <li>Containerised for portability and wired into automated release pipelines with GitHub Actions.</li>
+        <li>Modular architecture that supports external API integrations and custom frontends.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>Python</li>
+        <li>OpenAI</li>
+        <li>GitHub Actions</li>
+        <li>Docker</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/QuestMasterAI" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+    <article class="card">
+      <h3>AWS MLOps Blueprint</h3>
+      <p>Reusable Terraform + SageMaker setup that trains, evaluates, registers, and deploys regression models on serverless infrastructure.</p>
+      <ul>
+        <li>EventBridge-driven automation that promotes models based on evaluation thresholds with Lambda decisioning.</li>
+        <li>Streamlit insights surface predictions from a Kubernetes-hosted UI backed by container registry workflows.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>AWS</li>
+        <li>SageMaker</li>
+        <li>Terraform</li>
+        <li>Streamlit</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/aws-mlops" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+    <article class="card">
+      <h3>Purchase Manager</h3>
+      <p>Multi-cloud expense tracking platform deployed on GCP with serverless components and automated governance.</p>
+      <ul>
+        <li>Predictable infrastructure delivery with Terraform and GitHub Actions promoting artifacts into Cloud Run.</li>
+        <li>Event-driven data ingestion powered by Cloud Storage, Cloud SQL, and secure APIs.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>GCP</li>
+        <li>Cloud Run</li>
+        <li>Cloud SQL</li>
+        <li>Terraform</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/purchase-manager" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+    <article class="card">
+      <h3>Spark + Hadoop + Hive Air Analysis</h3>
+      <p>Big data lab that orchestrates Spark, Hadoop, and Hive locally to surface actionable insights from aviation datasets.</p>
+      <ul>
+        <li>Provisioned a containerised analytics stack to crunch 10GB+ of flight data with PySpark MLlib clustering and classification.</li>
+        <li>Published Streamlit dashboards that highlight busiest routes, delay trends, and airport activity patterns.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>PySpark</li>
+        <li>Hadoop</li>
+        <li>Hive</li>
+        <li>Streamlit</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/air-flights-big-data-unical" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+    <article class="card">
+      <h3>Automation Lab</h3>
+      <p>Hands-on Terraform lab that teaches reusable infrastructure patterns across AWS, GCP, and Kubernetes.</p>
+      <ul>
+        <li>Authored modular IaC exercises showcasing advanced Terraform constructs like for_each workflows and composable modules.</li>
+        <li>Documented repeatable lab scenarios that help engineers adopt best practices for multi-cloud provisioning.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>Terraform</li>
+        <li>AWS</li>
+        <li>GCP</li>
+        <li>Kubernetes</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/automation-lab" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+    <article class="card">
+      <h3>Instagram Twitter Clone</h3>
+      <p>Full-stack social platform that mirrors Instagram and Twitter experiences with secure authentication.</p>
+      <ul>
+        <li>Delivered a three-tier Java and Angular architecture featuring JWT-secured APIs for posting, comments, and media sharing.</li>
+        <li>Modelled persistent social graph interactions on PostgreSQL with responsive UI flows for web and mobile users.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>Java</li>
+        <li>Angular</li>
+        <li>PostgreSQL</li>
+        <li>JWT</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/UnicalSocialNetworkBackend" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+    <article class="card">
+      <h3>Cloud CI/CD Pipeline</h3>
+      <p>Reference Blazor application that demonstrates production-grade GitHub Actions pipelines for Azure deployments.</p>
+      <ul>
+        <li>Automated CodeQL scans, integration builds, and gated releases through GitHub Actions workflows.</li>
+        <li>Shipped continuous deployments to Azure App Service with telemetry and quality checks baked into each run.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>C#</li>
+        <li>Blazor</li>
+        <li>GitHub Actions</li>
+        <li>Azure</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/CloudCICDPipeline" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+    <article class="card">
+      <h3>SongFinder</h3>
+      <p>Android app that unlocks Genius API metadata with offline-friendly search history and rich song insights.</p>
+      <ul>
+        <li>Integrated Genius APIs with SQLite caching so users can explore artists, albums, and lyrics without repeated calls.</li>
+        <li>Designed Kotlin UI flows that keep navigation responsive while surfacing deep linked song details.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>Kotlin</li>
+        <li>Android</li>
+        <li>Genius API</li>
+        <li>SQLite</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/SongFinder" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+  </div>
+</section>
 
-  - Developed an AI-powered platform  for automated quest and task generation using Python and OpenAi's Apis, enabling dynamic content creation for interactive applications, throught CLI.
-  - Containerized the solution with Docker for seamless deployment and scalability across different environments.
-  - Integrated OpenAI to leverage advanced language models, enhancing the quality and relevance of generated quests.
-  - Designed the system to be developer-friendly, supporting easy customization and extension for various use cases such as games, productivity tools, or educational platforms.
-  - Focused on modular architecture to facilitate integration with external APIs and frontends, promoting flexibility and reusability.
+<section id="experience">
+  <div class="section-heading">
+    <h2>Work Experience</h2>
+    <p class="muted">Professional history.</p>
+  </div>
+  <div class="grid timeline">
+    <article class="timeline-item">
+      <div>
+        <strong>January 2025 – October 2025</strong>
+      </div>
+      <div>
+        <h3>Cloud Engineer · NTT Data Italia</h3>
+        <ul>
+          <li>Engineered and developed a Jenkins pipeline that allows the deployment of new versions of a dataflow pipeline on Google Cloud for a client operating in the food industry.</li>
+          <li>Developed a highly reliable network infrastructure using Terraform, Google Partner Interconnect, VPC peering, and VPN tunnel to manage digital payments for a client operating in the food industry.</li>
+          <li>Implemented a hybrid on-premise/cloud AWS infrastructure using Terraform, integrating over 10 AWS services (S3, DMS, Aurora, ACM, SQS, VPC, ECR, EKS, etc.) for a digital marketing and online communication customer. Author of the Terraform EC2, SQS, and Glue modules of the infrastructure.</li>
+          <li>Implemented a full-stack web app to visualize and quantify internal Azure subscription costs. Deploy with Azure DevOps on Azure Web App.</li>
+          <li>Designed and implemented a Quarkus-based microservice leveraging FinOps best practices and the Vertex AI SDK to optimize multi-cloud infrastructure costs based on user-provided scenarios, enhancing cost efficiency and resource allocation.</li>
+          <li>Developed a high-performance microservice using Quarkus and Crossplane to act as an agent for managing Istio policies in remote Kubernetes clusters, enabling dynamic policy enforcement, reducing manual intervention, and improving system scalability.</li>
+          <li>Developed a Python script leveraging FinOps best practices and the Vertex AI SDK to generate the lowest-cost multi-cloud infrastructure based on user-provided scenarios, optimizing resource allocation and cost efficiency.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="timeline-item">
+      <div>
+        <strong>July 2024 – December 2024</strong>
+      </div>
+      <div>
+        <h3>Software Engineer · Vision One S.r.l</h3>
+        <ul>
+          <li>Developed integration tests using <strong>xUnit</strong> and <strong>Testcontainer</strong>, achieving <strong>90% test coverage</strong>.</li>
+          <li>Integrated unit testing into <strong>OneWeb software</strong>, leading to <strong>80% test coverage</strong>.</li>
+          <li>Designed a project activity scheduling algorithm using <strong>ASP.NET Core</strong> and <strong>Blazor MVVM</strong>, achieving a scheduling time of less than <strong>1 second</strong>.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="timeline-item">
+      <div>
+        <strong>March 2024 – July 2024</strong>
+      </div>
+      <div>
+        <h3>Software Engineer · Caliò Informatica S.r.l</h3>
+        <ul>
+          <li>Enhanced visualization tools using <strong>.NET</strong> and <strong>Angular</strong>, improving management efficiency by <strong>70%</strong>.</li>
+          <li>Developed a medical office web platform, accelerating patient data entry by <strong>80%</strong>.</li>
+          <li>Optimized REST API calls to <strong>OpenAI</strong>, reducing costs by <strong>80%</strong> and improving performance by <strong>60%</strong>.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
 
-- **[AWS MlOps](https://github.com/umbertocicciaa/aws-mlops)**  
-  _MlOps, Python, AWS, Sagemaker, Glue, S3, Lambda, Eventbridge, Github Actions, CICD, Kubernetes_
+<section id="skills">
+  <div class="section-heading">
+    <h2>Skills</h2>
+  </div>
+  <div class="stack">
+    <div>
+      <h3>Framework</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">Angular</span>
+        <span class="skill-chip">Blazor</span>
+        <span class="skill-chip">ASP.NET Core</span>
+        <span class="skill-chip">Spring</span>
+        <span class="skill-chip">.NET</span>
+        <span class="skill-chip">JUnit</span>
+        <span class="skill-chip">xUnit</span>
+        <span class="skill-chip">bUnit</span>
+        <span class="skill-chip">Testcontainer</span>
+      </div>
+    </div>
+    <div>
+      <h3>Technologies</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">REST API</span>
+        <span class="skill-chip">Docker</span>
+        <span class="skill-chip">Kubernetes</span>
+        <span class="skill-chip">GitHub Actions</span>
+        <span class="skill-chip">CI/CD</span>
+        <span class="skill-chip">Jenkins</span>
+        <span class="skill-chip">SonarQube</span>
+      </div>
+    </div>
+    <div>
+      <h3>Cloud Providers</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">Amazon Web Services</span>
+        <span class="skill-chip">Microsoft Azure</span>
+        <span class="skill-chip">Google Cloud Platform</span>
+      </div>
+    </div>
+    <div>
+      <h3>Databases</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">SQL Server</span>
+        <span class="skill-chip">MongoDB</span>
+        <span class="skill-chip">PostgreSQL</span>
+        <span class="skill-chip">SQLite</span>
+        <span class="skill-chip">MySQL</span>
+      </div>
+    </div>
+    <div>
+      <h3>Programming Languages</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">C#</span>
+        <span class="skill-chip">Java</span>
+        <span class="skill-chip">Python</span>
+        <span class="skill-chip">Bash</span>
+      </div>
+    </div>
+    <div>
+      <h3>Soft Skills</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">Problem Solving</span>
+        <span class="skill-chip">Teamwork</span>
+        <span class="skill-chip">Proactivity</span>
+        <span class="skill-chip">Communication</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-  - Designed and deployed an MLOps pipeline using AWS SageMaker to automate the training and  evaluation of regression models on Parquet data from S3, ensuring reproducible workflows.
-  - Integrated model performance evaluation with conditional logic to trigger automated model   registration and deployment using Lambda functions, enhancing reliability and control.
-  - Provisioned infrastructure with Terraform, enabling end-to-end automation of the ML pipeline, including model deployment to a real-time REST API endpoint for production predictions.
-  - Deployed a streamlit frontend in a kubernetes cluster for make and visualize prediction.
-  - Developed a CICD pipeline with Github Actions, build and deploy new app images to Github container registry
+<section id="extra-activities">
+  <div class="section-heading">
+    <h2>Extra Activities</h2>
+    <p class="muted">Community support and extra activities.</p>
+  </div>
+  <div class="stack">
+    <div class="card">
+      <ul>
+        <li>Contributed to <strong>GitHub Actions Marketplace</strong>.</li>
+        <li>Maintainer, administrator, and manager of Unical3Telegram, an open-source GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing starred by over 50 users.</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-  <img src="/static/mlops.png" alt="MLOps Demo" class="project-image">
+<section id="hackathon">
+  <div class="section-heading">
+    <h2>Hackathon</h2>
+  </div>
+  <div class="stack">
+    <div class="card">
+      <ul>
+        <li>Participated and won in the AWS Jam for NTT Data, solving real-world cloud challenges focused on security, automation, and cost optimization, enhancing hands-on experience with AWS services and best practices in cloud architecture.</li>
+        <li>Participated to MlSysOps Hackathon organized from Università Della Calabria</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-- **[Purchase Manager](https://github.com/umbertocicciaa/purchase-manager)**  
-  _Python, Gcp, Cloud SQL, Cloud Storage, Cloud Run, Github Actions, Terraform, CICD_
+<section id="volunteering">
+  <div class="section-heading">
+    <h2>Volunteering</h2>
+    <p class="muted">Volunteering activities.</p>
+  </div>
+  <div class="stack">
+    <div class="card">
+      <ul>
+        <li>Among the few Italian students selected to be mentees for LeadTheFuture, a leading mentorship non-profit organization for students in STEM, with acceptance rate below 20%. LeadTheFuture empowers top-performing students to achieve their goals and contribute to their communities by giving them one-on-one guidance from high-impact mentors coming from the world's leading STEM innovation hubs such as Silicon Valley and CERN.</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-  - Purchase Manager is a web application designed for efficient management of purchases, allowing users to track, organize, and analyze purchase data.
-  - Built using modern web technologies, leveraging Streamlit and Fastapi for robust, type-safe client and server logic.
-  - Utilizes Fastapi for backend services, providing scalability and seamless integration with databases.
-  - Employs Streamlit for a dynamic, responsive user interface, ensuring an intuitive and engaging user experience.
-  - Supports persistent data storage and advanced search/filter capabilities, enabling users to manage purchases with ease.
+<section id="education">
+  <div class="section-heading">
+    <h2>Education</h2>
+    <p class="muted">Strong theoretical foundation that complements hands-on engineering work.</p>
+  </div>
+  <div class="grid timeline">
+    <article class="timeline-item">
+      <div>
+        <strong>Jul 2021 – Jul 2024</strong>
+      </div>
+      <div>
+        <h3>BSc Computer Engineering · Università della Calabria</h3>
+        <ul>
+          <li>Graduated with 109/110, ranking in the top third of the cohort.</li>
+          <li>Among the top 1/3 of students to graduate in the first available session.</li>
+          <li>Relevant Courses: Web and Mobile Application Development (30L/30), Software Engineering (27/30), Databases (29/30), Information Systems (27/30), Computer Networks (27/30)</li>
+          <li>Specialised in web & mobile development, software engineering, databases, and computer networks.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
 
-- **[Spark + Hadoop + Hive Air analysis](https://github.com/umbertocicciaa/air-flights-big-data-unical)**  
-  _Python, Spark, Hadoop, Hive, Docker, K8s, CICD, Github Actions, Scikit-learn, Streamlit_
+<section id="certifications">
+  <div class="section-heading">
+    <h2>Certifications</h2>
+    <p class="muted">Continuously investing in community-recognised credentials across cloud, Kubernetes, and automation.</p>
+  </div>
+  <div class="cert-grid">
+    <div class="cert-card">
+      <strong>Certified Kubernetes Administrator (CKA)</strong>
+      <a href="https://www.credly.com/badges/4908fd90-b9a8-472c-8000-8b015ecb557c/public_url" target="_blank" rel="noopener">View badge →</a>
+    </div>
+    <div class="cert-card">
+      <strong>Kubernetes and Cloud Native Associate (KCNA)</strong>
+      <a href="https://www.credly.com/badges/716af6b6-af7c-4408-98ab-bebe25a3d22a/public_url" target="_blank" rel="noopener">View badge →</a>
+    </div>
+    <div class="cert-card">
+      <strong>Terraform Associate (003)</strong>
+      <a href="https://www.credly.com/badges/72c86cb9-13c6-4ee4-be7a-040c0609fe00/public_url" target="_blank" rel="noopener">View badge →</a>
+    </div>
+    <div class="cert-card">
+      <strong>Google Associate Cloud Engineer</strong>
+      <a href="https://www.credly.com/badges/91899eaf-6375-4525-9c8f-0c2704e95d36/public_url" target="_blank" rel="noopener">View badge →</a>
+    </div>
+    <div class="cert-card">
+      <strong>AWS Solutions Architect – Associate</strong>
+      <a href="https://www.credly.com/badges/8c0a3ea9-42f6-46cc-9c66-f91f0e434df2/public_url" target="_blank" rel="noopener">View badge →</a>
+    </div>
+    <div class="cert-card">
+      <strong>Google Cloud Digital Leader</strong>
+      <a href="https://www.credly.com/badges/f21b57ac-11c7-4477-947d-eb2eafbdd0c8/public_url" target="_blank" rel="noopener">View badge →</a>
+    </div>
+    <div class="cert-card">
+      <strong>Microsoft Azure Fundamentals (AZ-900)</strong>
+      <a href="https://learn.microsoft.com/it-it/users/umbertodomenicociccia-8738/credentials/f5bc89b9bbcf5b9e?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener">View badge →</a>
+    </div>
+    <div class="cert-card">
+      <strong>AWS Certified Cloud Practitioner</strong>
+      <a href="https://www.credly.com/badges/16d46fdf-8e1c-4841-b210-79eed946cc44/public_url" target="_blank" rel="noopener">View badge →</a>
+    </div>
+    <div class="cert-card">
+      <strong>GitHub Actions</strong>
+      <a href="https://www.credly.com/badges/a4233ae1-dfa3-4213-b26c-114002aefba4/public_url" target="_blank" rel="noopener">View badge →</a>
+    </div>
+  </div>
+</section>
 
-  - Set up and configured a Spark + Hadoop + Hive cluster on a local environment to process and analyze over 10GB of flight and airport data from OpenSky and OurAirports datasets.
-  - Applied machine learning models including Random Forest classification and K-Means clustering to identify patterns in flight routes, delays, and airport activities using PySpark MLlib.
-  - Designed and deployed a Streamlit dashboard to visualize key insights such as the most used airlines, busiest airports, and classification results, enabling interactive exploration of big data analytics.
-  - Developed a CICD pipeline with Github Actions, build and deploy new app images to Github container registry
-
-  <img src="/static/bigdata.png" alt="Big Data Demo" class="project-image">
-
-- **[Automation Lab](https://github.com/umbertocicciaa/automation-lab)**  
-  _Terraform, AWS, GCP_
-
-  - Developed Terraform exercises covering AWS, GCP, Kubernetes resources, and Terraform modules.
-  - Applied advanced Terraform features like for_each, modules, and complex syntax to create reusable and scalable infrastructure code.
-  - Designed IaC solutions to automate cloud resource provisioning across multiple cloud providers.
-  - Focused on best practices for modularization, code reusability, and multi-cloud deployments.
-
-- **[Instagram Twitter Clone](https://github.com/umbertocicciaa/UnicalSocialNetworkBackend)**  
-  _Java, Angular, PostgreSQL, REST API_
-
-  - Developed a monolithic clone of Instagram/Twitter using a 3-tier MVC architecture.
-  - Implemented JWT authentication and authorization for secure user management.
-  - Enabled users to create posts, like, comment, tweet, and share photos and videos.
-  - Designed and built the backend with RESTful APIs and the frontend with Angular components.
-  - Integrated PostgreSQL for efficient data storage and retrieval.
-  - Employed responsive design principles to ensure smooth user experience across devices.
-  - Focused on scalability and maintainability to support potential future feature additions.
-
-- **[Cloud CI/CD Pipeline](https://github.com/umbertocicciaa/CloudCICDPipeline)**  
-  _C#, Blazor, GitHub Actions, ASP.NET Core_
-
-  - Set up automated workflows using GitHub Actions for CodeQL analysis, CI builds, and Azure deployment.
-  - Configured pipelines for continuous integration and continuous deployment, ensuring streamlined code updates and quality checks.
-  - Integrated Azure for hosting and deploying the ASP.NET Core Blazor application, enhancing deployment - efficiency.
-  - Leveraged CodeQL to perform static code analysis, improving code security and quality during - development.
-
-- **[SongFinder](https://github.com/umbertocicciaa/SongFinder)**  
-  _Kotlin, Android, Genius API, SQLite_
-  - Android app for song search and detailed metadata display.
-  - Developed an Android app for song search and detailed metadata display using the Genius API.
-  - Integrated SQLite for local storage of search history and song data.
-  - Designed intuitive UI for seamless user interaction and quick access to song information.
-  - Enabled song search by title, artist, and lyrics, providing detailed metadata such as album, release year, and genre.
-  - Ensured app performance and responsiveness through efficient API integration and database queries.
-
----
-
-## 📚 **EDUCATION**
-
-<!--
-**Università Della Calabria**, Rende, Italy  
-**Cybersecurity**
-
-- Student Worker
-- Relevant Courses: Cryptography algorithms, Methods and techniques for cyber security, Models and techniques for Big Data
--->
-
-**Università Della Calabria**, Rende, Italy  
-**Computer Engineering** — _109/110, 27.4/30_  
-**July 2021 – July 2024**
-
-- Full Time Student
-- Among the top 1/3 of students to graduate in the first available session.
-- Relevant Courses: Web and Mobile Application Development (30L/30), Software Engineering (27/30), Databases (29/30), Information Systems (27/30), Computer Networks (27/30)
-
----
-
-## 🏆 **CERTIFICATIONS**
-
-- **Certified Kubernetes Administrator (CKA)** ([Badge](https://www.credly.com/badges/4908fd90-b9a8-472c-8000-8b015ecb557c/public_url))
-- **Kubernetes and Cloud Native Associate (KCNA)** ([Badge](https://www.credly.com/badges/716af6b6-af7c-4408-98ab-bebe25a3d22a/public_url))
-- **Terraform Associate (003)** ([Badge](https://www.credly.com/badges/72c86cb9-13c6-4ee4-be7a-040c0609fe00/public_url))
-- **Google Associate Cloud Engineer** ([Badge](https://www.credly.com/badges/91899eaf-6375-4525-9c8f-0c2704e95d36/public_url))
-- **AWS Certified Solutions Architect – Associate** ([Badge](https://www.credly.com/badges/8c0a3ea9-42f6-46cc-9c66-f91f0e434df2/public_url))
-- **Google Cloud Provider: Cloud Digital Leader** ([Badge](https://www.credly.com/badges/f21b57ac-11c7-4477-947d-eb2eafbdd0c8/public_url))
-- **Microsoft Certified: Azure Fundamentals (AZ-900)** ([Badge](https://learn.microsoft.com/it-it/users/umbertodomenicociccia-8738/credentials/f5bc89b9bbcf5b9e?ref=https%3A%2F%2Fwww.linkedin.com%2F))
-- **AWS Certified Cloud Practitioner** ([Badge](https://www.credly.com/badges/16d46fdf-8e1c-4841-b210-79eed946cc44/public_url))
-- **GitHub Actions** ([Badge](https://www.credly.com/badges/a4233ae1-dfa3-4213-b26c-114002aefba4/public_url))
-
----
-<!--
-
-## 💼 **WORK EXPERIENCE**
-
-### **NTT Data Italia** - _Cloud Engineer_
-
-#### **January 2025 – Present**
-
-- Engineered and developed a Jenkins pipeline that allows the deployment of new versions of a dataflow pipeline on Google Cloud for a client operating in the food industry.
-- Developed a highly reliable network infrastructure using Terraform, Google Partner Interconnect, VPC peering, and VPN tunnel to manage digital payments for a client operating in the food industry.
-- Implement a full-stack web app to visualize and quantify internal Azure subscription costs. Deploy with Azure DevOps on Azure Web App.
-- Implemented a hybrid on-premise/cloud AWS infrastructure using Terraform, integrating over 10 AWS services (S3, DMS, Aurora, ACM, SQS, VPC, ECR, EKS, etc.) for a digital marketing and online communication customer. Author of the Terraform EC2, SQS and Glue modules of the infrastructure.
-- Designed and implemented a Quarkus-based microservice leveraging FinOps best practices and the Vertex AI SDK to optimize multi-cloud infrastructure costs based on user-provided scenarios, enhancing cost efficiency and resource allocation.
-- Developed a high-performance microservice using Quarkus and Crossplane to act as an agent for managing Istio policies in remote Kubernetes clusters, enabling dynamic policy enforcement, reducing manual intervention, and improving system scalability.
-- Developed a Python script leveraging FinOps best practices and the Vertex AI SDK to generate the lowest-cost multi-cloud infrastructure based on user-provided scenarios, optimizing resource allocation and cost efficiency.
-
-### **Vision One S.r.l** — _Software Engineer_
-
-#### **July 2024 – December 2024**
-
-- Developed integration tests using **xUnit** and **Testcontainer**, achieving **90% test coverage**.
-- Integrated unit testing into **OneWeb software**, leading to **80% test coverage**.
-- Designed a project activity scheduling algorithm using **ASP.NET Core** and **Blazor MVVM**, achieving a scheduling time of less than **1 second**.
-
-### **Caliò Informatica S.r.l** — _Software Engineer_
-
-**March 2024 – July 2024**
-
-- Enhanced visualization tools using **.NET** and **Angular**, improving management efficiency by **70%**.
-- Developed a medical office web platform, accelerating patient data entry by **80%**.
-- Optimized REST API calls to **OpenAI**, reducing costs by **80%** and improving performance by **60%**.
-
----
-
-## 🛠️ **SKILLS**
-
-- **Framework:** Angular, Blazor, ASP.NET Core, Spring, .NET, jUnit, xUnit, bUnit, Testcontainer
-- **Technologies:** REST API, Docker, Kubernetes, Github Actions, CICD, Jenkins, SonarQube
-- **Cloud Providers:** Amazon Web Services, Microsoft Azure, Goocle Cloud Platform
-- **Databases:** SQLServer, MongoDB, PostgreSQL, SQLite, MySQL
-- **Programming Languages:** C#, Java, Python, Bash
-- **Soft Skills:** Problem Solving, Teamwork, Proactivity, Communication
-
----
-
-## 🌟 **EXTRA ACTIVITIES**
-
-- Contributed to **GitHub Actions Marketplace**.
-- Supported **UnicalLoveTelegram**, assisting University of Calabria students.
-
----
-
--->
+<section id="contact">
+  <div class="section-heading">
+    <h2>Let's Build Something</h2>
+    <p class="muted">Available for collaborations, advisory roles, and teams that need a pragmatic engineer to turn ML projects into resilient products.</p>
+  </div>
+  <div class="stack">
+    <div class="contact-links">
+      <a href="mailto:umbertocicciaa@gmail.com">📧 Email</a>
+      <a href="https://github.com/umbertocicciaa" target="_blank" rel="noopener">💻 GitHub</a>
+      <a href="https://www.linkedin.com/in/umberto-domenico-ciccia/" target="_blank" rel="noopener">🤝 LinkedIn</a>
+      <a href="https://umbertocicciaa.github.io/blog-umbertodomenico-ciccia" target="_blank" rel="noopener">✍️ Blog</a>
+    </div>
+  </div>
+</section>
