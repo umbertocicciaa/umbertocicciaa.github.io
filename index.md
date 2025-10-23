@@ -48,6 +48,23 @@ layout: default
   </div>
   <div class="grid projects">
     <article class="card">
+      <h3>DevOpsFix</h3>
+      <p>LLM-powered CI/CD pipeline analyzer that validates pipelines and recommends fixes across multiple platforms.</p>
+      <ul>
+        <li>Plugin-based TypeScript backend unifies LLM providers and CI/CD parsers for GitHub Actions, GitLab CI, and Jenkins.</li>
+        <li>React frontend streams real-time feedback from repository URLs or manual pipeline snippets.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>TypeScript</li>
+        <li>Node.js</li>
+        <li>React</li>
+        <li>LLM APIs</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/devopsfix" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+    <article class="card">
       <h3>Easy MLOps</h3>
       <p>An end-to-end MLOps framework that automates experimentation, deployment, and observability through a unified CLI and Python API.</p>
       <ul>
