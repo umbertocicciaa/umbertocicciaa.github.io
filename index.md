@@ -48,6 +48,29 @@ layout: default
   </div>
   <div class="grid projects">
     <article class="card">
+      <figure class="card-media">
+        <img src="/static/professor-review/professor-review.png" alt="Teacher review dashboard illustration" loading="lazy">
+      </figure>
+      <h3>Professors Reviews</h3>
+      <p>Anonymous teacher and course review platform built for DIMES students, combining a modern React frontend with a FastAPI backend and PostgreSQL.</p>
+      <ul>
+        <li>When DIMES students lacked a trusted review channel, designed a secure portal with React 18, FastAPI, Argon2 hashing, and JWT so peers can give accountable feedback without exposing identities.</li>
+        <li>Containerized frontend, API, and database with Docker Compose and seeded admin roles, enabling faculty moderators to curate teachers, courses, and 1–5 star reviews from a single dashboard.</li>
+        <li>Leveraged machine learning to detect blameful language in reviews, reducing harmful content by automatically blocking flagged posts.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>React</li>
+        <li>TypeScript</li>
+        <li>FastAPI</li>
+        <li>PostgreSQL</li>
+        <li>Docker</li>
+        <li>Machine Learning</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/unical-dimes-professors" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+    <article class="card">
       <figure class="card-media is-split">
         <img src="/static/devopsfix/devopsfix.png" alt="DevOpsFix pipeline insights visualization" loading="lazy">
         <img src="/static/devopsfix/devopsfix2.png" alt="DevOpsFix CI/CD dashboard illustration" loading="lazy">
