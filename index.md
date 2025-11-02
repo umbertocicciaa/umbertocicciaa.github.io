@@ -136,7 +136,7 @@ layout: default
       <figure class="card-media">
         <img src="/static/aws-mlops/mlops.png" alt="AWS MLOps Frontend" loading="lazy">
       </figure>
-      <h3>AWS MLOps Blueprint</h3>
+      <h3>AWS MLOps</h3>
       <p>Reusable Terraform + SageMaker setup that trains, evaluates, registers, and deploys regression models on serverless infrastructure.</p>
       <ul>
         <li>EventBridge-driven automation that promotes models based on evaluation thresholds with Lambda decisioning.</li>
@@ -179,7 +179,7 @@ layout: default
       <figure class="card-media">
         <img src="/static/big-data/bigdata.png" alt="Air travel analytics pipeline illustration" loading="lazy">
       </figure>
-      <h3>Spark + Hadoop + Hive Air Analysis</h3>
+      <h3>Big Data Air Analysis</h3>
       <p>Big data lab that orchestrates Spark, Hadoop, and Hive locally to surface actionable insights from aviation datasets.</p>
       <ul>
         <li>Provisioned a containerised analytics stack to crunch 10GB+ of flight data with PySpark MLlib clustering and classification.</li>
@@ -233,26 +233,6 @@ layout: default
       </ul>
       <div class="links">
         <a href="https://github.com/umbertocicciaa/UnicalSocialNetworkBackend" target="_blank" rel="noopener">View on GitHub →</a>
-      </div>
-    </article>
-    <article class="card">
-      <figure class="card-media">
-        <img src="/static/placeholders/cloud-cicd-pipeline.svg" alt="Cloud CI/CD pipeline orchestration graphic" loading="lazy">
-      </figure>
-      <h3>Cloud CI/CD Pipeline</h3>
-      <p>Reference Blazor application that demonstrates production-grade GitHub Actions pipelines for Azure deployments.</p>
-      <ul>
-        <li>Automated CodeQL scans, integration builds, and gated releases through GitHub Actions workflows.</li>
-        <li>Shipped continuous deployments to Azure App Service with telemetry and quality checks baked into each run.</li>
-      </ul>
-      <ul class="tech-list">
-        <li>C#</li>
-        <li>Blazor</li>
-        <li>GitHub Actions</li>
-        <li>Azure</li>
-      </ul>
-      <div class="links">
-        <a href="https://github.com/umbertocicciaa/CloudCICDPipeline" target="_blank" rel="noopener">View on GitHub →</a>
       </div>
     </article>
     <article class="card">
