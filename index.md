@@ -48,6 +48,11 @@ layout: default
   </div>
   <div class="grid projects">
     <article class="card">
+      <figure class="card-media is-split">
+        <img src="/static/devopsfix/devopsfix.png" alt="DevOpsFix pipeline insights visualization" loading="lazy">
+        <img src="/static/devopsfix/devopsfix2.png" alt="DevOpsFix CI/CD dashboard illustration" loading="lazy">
+        <img src="/static/devopsfix/devopsfix3.png" alt="DevOpsFix CI/CD dashboard illustration" loading="lazy">
+      </figure>
       <h3>DevOpsFix</h3>
       <p>LLM-powered CI/CD pipeline analyzer that validates pipelines and recommends fixes across multiple platforms.</p>
       <ul>
@@ -65,6 +70,9 @@ layout: default
       </div>
     </article>
     <article class="card">
+      <figure class="card-media">
+        <img src="/static/placeholders/easy-mlops.svg" alt="Easy MLOps workflow illustration" loading="lazy">
+      </figure>
       <h3>Easy MLOps</h3>
       <p>An end-to-end MLOps framework that automates experimentation, deployment, and observability through a unified CLI and Python API.</p>
       <ul>
@@ -82,6 +90,12 @@ layout: default
       </div>
     </article>
     <article class="card">
+      <figure class="card-media is-split">
+        <img src="/static/homelab/hardware.png" alt="Hardware of cluster" loading="lazy">
+        <img src="/static/homelab/homepage.png" alt="Homepage" loading="lazy">
+        <img src="/static/homelab/smoketest-node.png" alt="Node smoketest" loading="lazy">
+        <img src="/static/homelab/smoketest-proxy.png" alt="Proxy smoketest" loading="lazy">
+      </figure>
       <h3>Homelab Platform</h3>
       <p>A Raspberry Pi powered lab with Kubernetes, observability stack, and GitOps delivery for experimentation and edge workloads.</p>
       <ul>
@@ -99,6 +113,9 @@ layout: default
       </div>
     </article>
     <article class="card">
+      <figure class="card-media">
+        <img src="/static/placeholders/questmasterai.svg" alt="QuestMasterAI command-line assistant illustration" loading="lazy">
+      </figure>
       <h3>QuestMasterAI</h3>
       <p>CLI-first AI assistant that generates contextual quests and tasks using OpenAI, packaged for repeatable deployments.</p>
       <ul>
@@ -116,6 +133,9 @@ layout: default
       </div>
     </article>
     <article class="card">
+      <figure class="card-media">
+        <img src="/static/aws-mlops/mlops.png" alt="AWS MLOps Frontend" loading="lazy">
+      </figure>
       <h3>AWS MLOps Blueprint</h3>
       <p>Reusable Terraform + SageMaker setup that trains, evaluates, registers, and deploys regression models on serverless infrastructure.</p>
       <ul>
@@ -133,6 +153,12 @@ layout: default
       </div>
     </article>
     <article class="card">
+      <figure class="card-media is-split">
+        <img src="/static/purchase-management/homepage.jpeg" alt="Hardware of cluster" loading="lazy">
+        <img src="/static/purchase-management/homepage2.jpeg" alt="Homepage" loading="lazy">
+        <img src="/static/purchase-management/purchase-management.jpeg" alt="Node smoketest" loading="lazy">
+        <img src="/static/purchase-management/purchase-management2.jpeg" alt="Proxy smoketest" loading="lazy">
+      </figure>
       <h3>Purchase Manager</h3>
       <p>Multi-cloud expense tracking platform deployed on GCP with serverless components and automated governance.</p>
       <ul>
@@ -150,6 +176,9 @@ layout: default
       </div>
     </article>
     <article class="card">
+      <figure class="card-media">
+        <img src="/static/big-data/bigdata.png" alt="Air travel analytics pipeline illustration" loading="lazy">
+      </figure>
       <h3>Spark + Hadoop + Hive Air Analysis</h3>
       <p>Big data lab that orchestrates Spark, Hadoop, and Hive locally to surface actionable insights from aviation datasets.</p>
       <ul>
@@ -167,6 +196,9 @@ layout: default
       </div>
     </article>
     <article class="card">
+      <figure class="card-media">
+        <img src="/static/placeholders/automation-lab.svg" alt="Automation Lab infrastructure templates graphic" loading="lazy">
+      </figure>
       <h3>Automation Lab</h3>
       <p>Hands-on Terraform lab that teaches reusable infrastructure patterns across AWS, GCP, and Kubernetes.</p>
       <ul>
@@ -184,6 +216,9 @@ layout: default
       </div>
     </article>
     <article class="card">
+      <figure class="card-media">
+        <img src="/static/placeholders/social-clone.svg" alt="Social platform interface mockups" loading="lazy">
+      </figure>
       <h3>Instagram Twitter Clone</h3>
       <p>Full-stack social platform that mirrors Instagram and Twitter experiences with secure authentication.</p>
       <ul>
@@ -201,6 +236,9 @@ layout: default
       </div>
     </article>
     <article class="card">
+      <figure class="card-media">
+        <img src="/static/placeholders/cloud-cicd-pipeline.svg" alt="Cloud CI/CD pipeline orchestration graphic" loading="lazy">
+      </figure>
       <h3>Cloud CI/CD Pipeline</h3>
       <p>Reference Blazor application that demonstrates production-grade GitHub Actions pipelines for Azure deployments.</p>
       <ul>
@@ -218,6 +256,9 @@ layout: default
       </div>
     </article>
     <article class="card">
+      <figure class="card-media">
+        <img src="/static/placeholders/songfinder.svg" alt="SongFinder audio discovery visualization" loading="lazy">
+      </figure>
       <h3>SongFinder</h3>
       <p>Android app that unlocks Genius API metadata with offline-friendly search history and rich song insights.</p>
       <ul>

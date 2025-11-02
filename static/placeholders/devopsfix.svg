@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1d35" />
+      <stop offset="55%" stop-color="#1f2f5d" />
+      <stop offset="100%" stop-color="#5d8bfd" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#87a6ff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#7c5dfd" stop-opacity="0.85" />
+    </linearGradient>
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" rx="32" />
+  <g opacity="0.35" stroke="#8aaaff" stroke-width="12" fill="none">
+    <path d="M180 180h240c28 0 28-44 0-44h-90c-28 0-28-44 0-44h210c32 0 32 52 0 52h-74c-32 0-32 52 0 52h244" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M246 362h226c28 0 28-44 0-44h-90c-28 0-28-44 0-44h330c32 0 32 52 0 52h-134c-32 0-32 52 0 52h338" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <g filter="url(#soft-glow)">
+    <circle cx="920" cy="184" r="68" fill="url(#accent)" opacity="0.9" />
+    <circle cx="1012" cy="274" r="42" fill="#99b7ff" opacity="0.65" />
+    <circle cx="848" cy="278" r="48" fill="#4f6ee9" opacity="0.5" />
+  </g>
+  <g fill="#f4f6ff" opacity="0.78">
+    <path d="M386 476h120c12 0 18-6 18-18v-52c0-12-6-18-18-18H386c-12 0-18 6-18 18v52c0 12 6 18 18 18zm0 48h120c12 0 18-6 18-18v-20c0-12-6-18-18-18H386c-12 0-18 6-18 18v20c0 12 6 18 18 18z" />
+    <circle cx="328" cy="481" r="22" />
+    <circle cx="328" cy="544" r="22" />
+    <path d="M620 430h180c12 0 18 6 18 18v122c0 12-6 18-18 18H620c-12 0-18-6-18-18V448c0-12 6-18 18-18zm42 60h96v-24h-96v24zm0 62h130v-24H662v24z" />
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121f42" />
+      <stop offset="55%" stop-color="#1c2e5d" />
+      <stop offset="100%" stop-color="#315c88" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.22" cy="0.18" r="0.7">
+      <stop offset="0%" stop-color="#6ed6ff" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#121f42" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c5dfd" />
+      <stop offset="100%" stop-color="#5dd2ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)" />
+  <rect width="1200" height="675" fill="url(#glow)" />
+  <g fill="#f4f6ff" opacity="0.85">
+    <path d="M296 234h180c12 0 18 6 18 18v86c0 12-6 18-18 18H296c-12 0-18-6-18-18v-86c0-12 6-18 18-18z" />
+    <path d="M520 234h180c12 0 18 6 18 18v86c0 12-6 18-18 18H520c-12 0-18-6-18-18v-86c0-12 6-18 18-18z" />
+    <path d="M744 234h180c12 0 18 6 18 18v86c0 12-6 18-18 18H744c-12 0-18-6-18-18v-86c0-12 6-18 18-18z" />
+  </g>
+  <g fill="none" stroke="url(#accent)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.88">
+    <path d="M296 412h180l44 44h144l42-42h176" />
+    <path d="M356 520h140l42-42h172l44 44h132" />
+    <path d="M296 460h120l36 36h184l36-36h172" opacity="0.6" />
+  </g>
+  <g fill="#f4f6ff" opacity="0.8">
+    <circle cx="296" cy="412" r="20" />
+    <circle cx="476" cy="412" r="20" />
+    <circle cx="496" cy="520" r="16" />
+    <circle cx="668" cy="520" r="16" />
+    <circle cx="880" cy="456" r="16" />
+    <circle cx="1036" cy="520" r="16" />
+  </g>
+</svg>

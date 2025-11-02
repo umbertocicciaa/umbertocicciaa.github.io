@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c0f3b" />
+      <stop offset="45%" stop-color="#281a55" />
+      <stop offset="100%" stop-color="#5d8bfd" />
+    </linearGradient>
+    <radialGradient id="pulse" cx="0.76" cy="0.26" r="0.6">
+      <stop offset="0%" stop-color="#ff9dff" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#281a55" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="glyph" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c29bff" />
+      <stop offset="100%" stop-color="#7c5dfd" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)" />
+  <rect width="1200" height="675" fill="url(#pulse)" />
+  <g opacity="0.3" stroke="#b8a4ff" stroke-width="10" fill="none" stroke-linecap="round">
+    <path d="M220 188h180" />
+    <path d="M220 272h140" />
+    <path d="M220 356h240" />
+    <path d="M220 440h190" />
+    <path d="M220 524h280" />
+  </g>
+  <g fill="none" stroke="url(#glyph)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <path d="M570 224c0-32 26-58 58-58h184c32 0 58 26 58 58v86c0 32-26 58-58 58H628c-32 0-58-26-58-58v-86z" />
+    <path d="M682 270h116" />
+    <path d="M740 212v116" />
+    <path d="M596 452l70-70 70 70-70 70-70-70z" />
+    <path d="M836 452l70-70 70 70-70 70-70-70z" />
+    <path d="M716 488h140" />
+  </g>
+  <g fill="#f4f6ff" opacity="0.82">
+    <circle cx="404" cy="222" r="20" />
+    <circle cx="404" cy="306" r="20" />
+    <circle cx="404" cy="390" r="20" />
+    <circle cx="404" cy="474" r="20" />
+    <circle cx="404" cy="558" r="20" />
+  </g>
+</svg>
