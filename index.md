@@ -27,7 +27,7 @@ layout: default
     <div class="stat">
       <span>Current focus</span>
       <strong> Improve cloud computing world </strong>
-    </div> 
+    </div>
     <div class="stat">
       <span>Certifications</span>
       <strong>CKA · TERRAFORM · AWS · AZURE · GCP </strong>
@@ -287,6 +287,19 @@ layout: default
     <p class="muted">Professional history.</p>
   </div>
   <div class="grid timeline">
+    <article class="timeline-item">
+      <div>
+        <strong>November 2025 – Present</strong>
+      </div>
+      <div>
+        <h3>System Engineer · AWS</h3>
+        <ul>
+          <li> Built and delivery AWS’s first European Sovereign Cloud (EUSC), enabling EU customers to run secure, compliant, and fully locally hosted workloads, meeting strict EU regulatory and data-residency requirements. </li>
+          <li> Owned operations and lifecycle management of AWS DNS infrastructure and all services dependent on it, including Amazon Route 53, ensuring high availability, fault tolerance, and compliance-driven isolation for sovereign workloads. </li>
+          <li>Partnered with multiple AWS service teams to own, deploy, and optimize core cloud services, improving service reliability, scalability, and operational readiness across the sovereign cloud environment. </li>
+        </ul>
+      </div>
+    </article>
     <article class="timeline-item">
       <div>
         <strong>January 2025 – October 2025</strong>
