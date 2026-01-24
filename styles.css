@@ -8,7 +8,9 @@
   --bg-alt: #f9f9f9;
   --text: #333;
   --text-muted: #666;
+  --text-inverse: #fff;
   --accent: #0066cc;
+  --accent-hover: #0052a3;
   --border: #e0e0e0;
   --max-width: 720px;
 }
@@ -149,7 +151,7 @@ section:last-child {
   display: inline-block;
   padding: 0.5rem 1rem;
   background: var(--accent);
-  color: #fff;
+  color: var(--text-inverse);
   text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.9rem;
@@ -157,7 +159,7 @@ section:last-child {
 }
 
 .button:hover {
-  background: #0052a3;
+  background: var(--accent-hover);
 }
 
 .button.is-secondary {
@@ -273,7 +275,7 @@ section:last-child {
 }
 
 .tech-list li {
-  background: #fff;
+  background: var(--bg);
   border: 1px solid var(--border);
   padding: 0.2rem 0.6rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
