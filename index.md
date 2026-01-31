@@ -49,6 +49,25 @@ layout: default
   <div class="grid projects">
     <article class="card">
       <figure class="card-media">
+        <img src="/static/placeholders/chatgpt-cli.svg" alt="ChatGPT CLI terminal interface illustration" loading="lazy">
+      </figure>
+      <h3>ChatGPT CLI</h3>
+      <p>A modern, extensible command-line interface for ChatGPT with subcommand support, configuration management, and comprehensive logging.</p>
+      <ul>
+        <li>Built with Go's standard library, featuring a clean command registry pattern for easy extensibility and new command additions.</li>
+        <li>Environment-based configuration with runtime overrides, supporting multiple OpenAI models and customizable request parameters.</li>
+      </ul>
+      <ul class="tech-list">
+        <li>Go</li>
+        <li>OpenAI</li>
+        <li>CLI</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/umbertocicciaa/chatgpt-cli" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+    <article class="card">
+      <figure class="card-media">
         <img src="/static/professor-review/professor-review.png" alt="Teacher review dashboard illustration" loading="lazy">
       </figure>
       <h3>Professors Reviews</h3>
@@ -153,25 +172,6 @@ layout: default
       </ul>
       <div class="links">
         <a href="https://github.com/umbertocicciaa/QuestMasterAI" target="_blank" rel="noopener">View on GitHub →</a>
-      </div>
-    </article>
-    <article class="card">
-      <figure class="card-media">
-        <img src="/static/placeholders/chatgpt-cli.svg" alt="ChatGPT CLI terminal interface illustration" loading="lazy">
-      </figure>
-      <h3>ChatGPT CLI</h3>
-      <p>A modern, extensible command-line interface for ChatGPT with subcommand support, configuration management, and comprehensive logging.</p>
-      <ul>
-        <li>Built with Go's standard library, featuring a clean command registry pattern for easy extensibility and new command additions.</li>
-        <li>Environment-based configuration with runtime overrides, supporting multiple OpenAI models and customizable request parameters.</li>
-      </ul>
-      <ul class="tech-list">
-        <li>Go</li>
-        <li>OpenAI</li>
-        <li>CLI</li>
-      </ul>
-      <div class="links">
-        <a href="https://github.com/umbertocicciaa/chatgpt-cli" target="_blank" rel="noopener">View on GitHub →</a>
       </div>
     </article>
     <article class="card">
