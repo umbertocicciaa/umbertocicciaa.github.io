@@ -188,7 +188,7 @@ layout: default
       <figure class="card-media">
         <img src="/static/big-data/bigdata.png" alt="Air travel analytics pipeline illustration" loading="lazy">
       </figure>
-      <h3>Big Data Air Analysis</h3>
+      <h3>Analysis of airline flights</h3>
       <p>Big data lab that orchestrates Spark, Hadoop, and Hive locally to surface actionable insights from aviation datasets.</p>
       <ul class="tech-list">
         <li>PySpark</li>
