@@ -190,10 +190,6 @@ layout: default
       </figure>
       <h3>Big Data Air Analysis</h3>
       <p>Big data lab that orchestrates Spark, Hadoop, and Hive locally to surface actionable insights from aviation datasets.</p>
-      <ul>
-        <li>Provisioned a containerised analytics stack to crunch 10GB+ of flight data with PySpark MLlib clustering and classification.</li>
-        <li>Published Streamlit dashboards that highlight busiest routes, delay trends, and airport activity patterns.</li>
-      </ul>
       <ul class="tech-list">
         <li>PySpark</li>
         <li>Hadoop</li>
