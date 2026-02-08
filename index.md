@@ -49,7 +49,7 @@ layout: default
   <div class="grid projects">
     <article class="card">
       <figure class="card-media">
-        <img src="/static/placeholders/chatgpt-cli.svg" alt="ChatGPT CLI terminal interface illustration" loading="lazy">
+        <img src="/static/chatgpt-cli/chatgpt-cli.svg" alt="ChatGPT CLI terminal interface showing prompt, config, and logs commands" loading="lazy">
       </figure>
       <h3>ChatGPT CLI</h3>
       <p>A modern, extensible command-line interface for ChatGPT with subcommand support, configuration management, and comprehensive logging.</p>
@@ -100,7 +100,7 @@ layout: default
     </article>
     <article class="card">
       <figure class="card-media">
-        <img src="/static/placeholders/easy-mlops.svg" alt="Easy MLOps workflow illustration" loading="lazy">
+        <img src="/static/easy-mlops/easy-mlops.svg" alt="Easy MLOps architecture diagram showing CLI, Master API, Worker, and MLOpsPipeline" loading="lazy">
       </figure>
       <h3>Easy MLOps</h3>
       <p>An end-to-end MLOps framework that automates experimentation, deployment, and observability through a unified CLI and Python API.</p>
@@ -135,7 +135,7 @@ layout: default
     </article>
     <article class="card">
       <figure class="card-media">
-        <img src="/static/placeholders/questmasterai.svg" alt="QuestMasterAI command-line assistant illustration" loading="lazy">
+        <img src="/static/questmasterai/questmasterai.svg" alt="QuestMasterAI showing story generation pipeline and interactive Streamlit adventure game" loading="lazy">
       </figure>
       <h3>QuestMasterAI</h3>
       <p>CLI-first AI assistant that generates contextual quests and tasks using OpenAI, packaged for repeatable deployments.</p>
@@ -202,7 +202,7 @@ layout: default
     </article>
     <article class="card">
       <figure class="card-media">
-        <img src="/static/placeholders/automation-lab.svg" alt="Automation Lab infrastructure templates graphic" loading="lazy">
+        <img src="/static/automation-lab/automation-lab.svg" alt="Automation Lab showing Terraform modules for AWS, GCP, and Kubernetes" loading="lazy">
       </figure>
       <h3>Automation Lab</h3>
       <p>Hands-on Terraform lab that teaches reusable infrastructure patterns across AWS, GCP, and Kubernetes.</p>
@@ -218,7 +218,7 @@ layout: default
     </article>
     <article class="card">
       <figure class="card-media">
-        <img src="/static/placeholders/social-clone.svg" alt="Social platform interface mockups" loading="lazy">
+        <img src="/static/social-clone/social-clone.svg" alt="Instagram Twitter Clone showing feed UI, architecture diagram with Angular, Spring Boot, PostgreSQL, and JWT" loading="lazy">
       </figure>
       <h3>Instagram Twitter Clone</h3>
       <p>Full-stack social platform that mirrors Instagram and Twitter experiences with secure authentication.</p>
@@ -235,7 +235,7 @@ layout: default
     </article>
     <article class="card">
       <figure class="card-media">
-        <img src="/static/placeholders/songfinder.svg" alt="SongFinder audio discovery visualization" loading="lazy">
+        <img src="/static/songfinder/songfinder.svg" alt="SongFinder Android app showing song search, details with Genius API, and architecture" loading="lazy">
       </figure>
       <h3>SongFinder</h3>
       <p>Android app that unlocks Genius API metadata with offline-friendly search history and rich song insights.</p>
