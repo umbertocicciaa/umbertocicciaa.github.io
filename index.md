@@ -53,10 +53,6 @@ layout: default
       </figure>
       <h3>ChatGPT CLI</h3>
       <p>A modern, extensible command-line interface for ChatGPT with subcommand support, configuration management, and comprehensive logging.</p>
-      <ul>
-        <li>Built with Go's standard library, featuring a clean command registry pattern for easy extensibility and new command additions.</li>
-        <li>Environment-based configuration with runtime overrides, supporting multiple OpenAI models and customizable request parameters.</li>
-      </ul>
       <ul class="tech-list">
         <li>Go</li>
         <li>OpenAI</li>
@@ -72,11 +68,6 @@ layout: default
       </figure>
       <h3>Professors Reviews</h3>
       <p>Anonymous teacher and course review platform built for DIMES students, combining a modern React frontend with a FastAPI backend and PostgreSQL.</p>
-      <ul>
-        <li>When DIMES students lacked a trusted review channel, designed a secure portal with React 18, FastAPI, Argon2 hashing, and JWT so peers can give accountable feedback without exposing identities.</li>
-        <li>Containerized frontend, API, and database with Docker Compose and seeded admin roles, enabling faculty moderators to curate teachers, courses, and 1–5 star reviews from a single dashboard.</li>
-        <li>Leveraged machine learning to detect blameful language in reviews, reducing harmful content by automatically blocking flagged posts.</li>
-      </ul>
       <ul class="tech-list">
         <li>React</li>
         <li>TypeScript</li>
@@ -97,10 +88,6 @@ layout: default
       </figure>
       <h3>DevOpsFix</h3>
       <p>LLM-powered CI/CD pipeline analyzer that validates pipelines and recommends fixes across multiple platforms.</p>
-      <ul>
-        <li>Plugin-based TypeScript backend unifies LLM providers and CI/CD parsers for GitHub Actions, GitLab CI, and Jenkins.</li>
-        <li>React frontend streams real-time feedback from repository URLs or manual pipeline snippets.</li>
-      </ul>
       <ul class="tech-list">
         <li>TypeScript</li>
         <li>Node.js</li>
@@ -117,10 +104,6 @@ layout: default
       </figure>
       <h3>Easy MLOps</h3>
       <p>An end-to-end MLOps framework that automates experimentation, deployment, and observability through a unified CLI and Python API.</p>
-      <ul>
-        <li>Distributed runtime orchestrated via FastAPI to coordinate long-running ML workflows with remote workers.</li>
-        <li>Artifact versioning, reproducible pipeline outputs, and MkDocs-powered documentation for rapid onboarding.</li>
-      </ul>
       <ul class="tech-list">
         <li>Python</li>
         <li>FastAPI</li>
@@ -140,10 +123,6 @@ layout: default
       </figure>
       <h3>Homelab Platform</h3>
       <p>A Raspberry Pi powered lab with Kubernetes, observability stack, and GitOps delivery for experimentation and edge workloads.</p>
-      <ul>
-        <li>Two-node Pi cluster with active cooling, dedicated networking, and automated K3s provisioning.</li>
-        <li>Grafana, Prometheus, Jenkins, and Traefik ingress exposed via custom DNS and TLS.</li>
-      </ul>
       <ul class="tech-list">
         <li>K3s</li>
         <li>Grafana</li>
@@ -160,10 +139,6 @@ layout: default
       </figure>
       <h3>QuestMasterAI</h3>
       <p>CLI-first AI assistant that generates contextual quests and tasks using OpenAI, packaged for repeatable deployments.</p>
-      <ul>
-        <li>Containerised for portability and wired into automated release pipelines with GitHub Actions.</li>
-        <li>Modular architecture that supports external API integrations and custom frontends.</li>
-      </ul>
       <ul class="tech-list">
         <li>Python</li>
         <li>OpenAI</li>
@@ -180,10 +155,6 @@ layout: default
       </figure>
       <h3>AWS MLOps</h3>
       <p>Reusable Terraform + SageMaker setup that trains, evaluates, registers, and deploys regression models on serverless infrastructure.</p>
-      <ul>
-        <li>EventBridge-driven automation that promotes models based on evaluation thresholds with Lambda decisioning.</li>
-        <li>Streamlit insights surface predictions from a Kubernetes-hosted UI backed by container registry workflows.</li>
-      </ul>
       <ul class="tech-list">
         <li>AWS</li>
         <li>SageMaker</li>
@@ -203,10 +174,6 @@ layout: default
       </figure>
       <h3>Purchase Manager</h3>
       <p>Multi-cloud expense tracking platform deployed on GCP with serverless components and automated governance.</p>
-      <ul>
-        <li>Predictable infrastructure delivery with Terraform and GitHub Actions promoting artifacts into Cloud Run.</li>
-        <li>Event-driven data ingestion powered by Cloud Storage, Cloud SQL, and secure APIs.</li>
-      </ul>
       <ul class="tech-list">
         <li>GCP</li>
         <li>Cloud Run</li>
@@ -243,10 +210,6 @@ layout: default
       </figure>
       <h3>Automation Lab</h3>
       <p>Hands-on Terraform lab that teaches reusable infrastructure patterns across AWS, GCP, and Kubernetes.</p>
-      <ul>
-        <li>Authored modular IaC exercises showcasing advanced Terraform constructs like for_each workflows and composable modules.</li>
-        <li>Documented repeatable lab scenarios that help engineers adopt best practices for multi-cloud provisioning.</li>
-      </ul>
       <ul class="tech-list">
         <li>Terraform</li>
         <li>AWS</li>
@@ -263,10 +226,6 @@ layout: default
       </figure>
       <h3>Instagram Twitter Clone</h3>
       <p>Full-stack social platform that mirrors Instagram and Twitter experiences with secure authentication.</p>
-      <ul>
-        <li>Delivered a three-tier Java and Angular architecture featuring JWT-secured APIs for posting, comments, and media sharing.</li>
-        <li>Modelled persistent social graph interactions on PostgreSQL with responsive UI flows for web and mobile users.</li>
-      </ul>
       <ul class="tech-list">
         <li>Java</li>
         <li>Angular</li>
@@ -284,10 +243,6 @@ layout: default
       </figure>
       <h3>SongFinder</h3>
       <p>Android app that unlocks Genius API metadata with offline-friendly search history and rich song insights.</p>
-      <ul>
-        <li>Integrated Genius APIs with SQLite caching so users can explore artists, albums, and lyrics without repeated calls.</li>
-        <li>Designed Kotlin UI flows that keep navigation responsive while surfacing deep linked song details.</li>
-      </ul>
       <ul class="tech-list">
         <li>Kotlin</li>
         <li>Android</li>
