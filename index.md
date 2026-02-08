@@ -274,7 +274,8 @@ layout: default
         <li>JWT</li>
       </ul>
       <div class="links">
-        <a href="https://github.com/umbertocicciaa/UnicalSocialNetworkBackend" target="_blank" rel="noopener">View on GitHub →</a>
+        <a href="https://github.com/umbertocicciaa/UnicalSocialNetworkBackend" target="_blank" rel="noopener">View on GitHub (Backend) →</a>
+        <a href="https://github.com/umbertocicciaa/UnicalSocialNetworkFrontend" target="_blank" rel="noopener">View on GitHub (Frontend) →</a>
       </div>
     </article>
     <article class="card">
