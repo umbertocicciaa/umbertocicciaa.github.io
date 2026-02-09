@@ -263,10 +263,10 @@ layout: default
         <strong>November 2025 – Present</strong>
       </div>
       <div>
-        <h3>System Engineer · AWS</h3>
+        <h3>System Engineer · Amazon Web Services (AWS)</h3>
         <ul>
           <li> Built and delivery AWS’s first European Sovereign Cloud (EUSC), enabling EU customers to run secure, compliant, and fully locally hosted workloads, meeting strict EU regulatory and data-residency requirements. </li>
-          <li> Owned operations and lifecycle management of AWS DNS infrastructure and all services dependent on it, including Amazon Route 53, ensuring high availability, fault tolerance, and compliance-driven isolation for sovereign workloads. </li>
+          <li> Owned operations and lifecycle management of AWS IREO and AWS DNS infrastructure and all services dependent on it, including Amazon Route 53, ensuring high availability, fault tolerance, and compliance-driven isolation for sovereign workloads. </li>
           <li>Partnered with multiple AWS service teams to own, deploy, and optimize core cloud services, improving service reliability, scalability, and operational readiness across the sovereign cloud environment. </li>
         </ul>
       </div>
