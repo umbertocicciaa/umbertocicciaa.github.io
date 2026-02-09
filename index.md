@@ -323,65 +323,135 @@ layout: default
   </div>
   <div class="stack">
     <div>
-      <h3>Framework</h3>
-      <div class="skill-cloud">
-        <span class="skill-chip">Angular</span>
-        <span class="skill-chip">Blazor</span>
-        <span class="skill-chip">ASP.NET Core</span>
-        <span class="skill-chip">Spring</span>
-        <span class="skill-chip">.NET</span>
-        <span class="skill-chip">JUnit</span>
-        <span class="skill-chip">xUnit</span>
-        <span class="skill-chip">bUnit</span>
-        <span class="skill-chip">Testcontainer</span>
-      </div>
-    </div>
-    <div>
-      <h3>Technologies</h3>
-      <div class="skill-cloud">
-        <span class="skill-chip">REST API</span>
-        <span class="skill-chip">Docker</span>
-        <span class="skill-chip">Kubernetes</span>
-        <span class="skill-chip">GitHub Actions</span>
-        <span class="skill-chip">CI/CD</span>
-        <span class="skill-chip">Jenkins</span>
-        <span class="skill-chip">SonarQube</span>
-      </div>
-    </div>
-    <div>
-      <h3>Cloud Providers</h3>
-      <div class="skill-cloud">
-        <span class="skill-chip">Amazon Web Services</span>
-        <span class="skill-chip">Microsoft Azure</span>
-        <span class="skill-chip">Google Cloud Platform</span>
-      </div>
-    </div>
-    <div>
-      <h3>Databases</h3>
-      <div class="skill-cloud">
-        <span class="skill-chip">SQL Server</span>
-        <span class="skill-chip">MongoDB</span>
-        <span class="skill-chip">PostgreSQL</span>
-        <span class="skill-chip">SQLite</span>
-        <span class="skill-chip">MySQL</span>
-      </div>
-    </div>
-    <div>
       <h3>Programming Languages</h3>
       <div class="skill-cloud">
         <span class="skill-chip">C#</span>
         <span class="skill-chip">Java</span>
         <span class="skill-chip">Python</span>
         <span class="skill-chip">Bash</span>
+        <span class="skill-chip">C</span>
+        <span class="skill-chip">TypeScript</span>
+        <span class="skill-chip">JavaScript</span>
+      </div>
+    </div>
+    <div>
+      <h3>Cloud & DevOps</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">CI/CD</span>
+        <span class="skill-chip">GitOps</span>
+        <span class="skill-chip">MLOps</span>
+        <span class="skill-chip">Docker</span>
+        <span class="skill-chip">Kubernetes</span>
+        <span class="skill-chip">Terraform</span>
+        <span class="skill-chip">Crossplane</span>
+        <span class="skill-chip">Istio</span>
+        <span class="skill-chip">GitLab CI/CD</span>
+        <span class="skill-chip">GitHub Actions</span>
+        <span class="skill-chip">Git</span>
+        <span class="skill-chip">Azure</span>
+        <span class="skill-chip">AWS</span>
+        <span class="skill-chip">GCP</span>
+        <span class="skill-chip">A/B Testing</span>
+        <span class="skill-chip">Canary Deployment</span>
+        <span class="skill-chip">Blue/Green Deployment</span>
+      </div>
+    </div>
+    <div>
+      <h3>Linux & System Administration</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">SSH</span>
+        <span class="skill-chip">OpenSSL</span>
+        <span class="skill-chip">User Management</span>
+        <span class="skill-chip">File Permissions</span>
+        <span class="skill-chip">Bash Scripting</span>
+        <span class="skill-chip">System Monitoring</span>
+        <span class="skill-chip">Log Analysis</span>
+        <span class="skill-chip">Package Management</span>
+        <span class="skill-chip">K8s Cluster Setup</span>
+        <span class="skill-chip">K3s</span>
+      </div>
+    </div>
+    <div>
+      <h3>Network</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">TCP</span>
+        <span class="skill-chip">UDP</span>
+        <span class="skill-chip">ISO/OSI</span>
+        <span class="skill-chip">DNS</span>
+        <span class="skill-chip">DHCP</span>
+        <span class="skill-chip">IPv4</span>
+        <span class="skill-chip">Routing</span>
+        <span class="skill-chip">HTTP</span>
+        <span class="skill-chip">HTTPS</span>
+        <span class="skill-chip">MTU</span>
+        <span class="skill-chip">Firewall</span>
+        <span class="skill-chip">NAT</span>
+      </div>
+    </div>
+    <div>
+      <h3>Frontend</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">Angular</span>
+        <span class="skill-chip">React</span>
+        <span class="skill-chip">Blazor</span>
+        <span class="skill-chip">HTML</span>
+        <span class="skill-chip">CSS</span>
+        <span class="skill-chip">GoJS</span>
+        <span class="skill-chip">jQuery</span>
+        <span class="skill-chip">Bootstrap</span>
+        <span class="skill-chip">Angular Material</span>
+        <span class="skill-chip">Syncfusion</span>
+      </div>
+    </div>
+    <div>
+      <h3>Backend and Databases</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">.NET</span>
+        <span class="skill-chip">.NET Core</span>
+        <span class="skill-chip">ASP.NET MVC</span>
+        <span class="skill-chip">ASP.NET Core</span>
+        <span class="skill-chip">Spring Boot</span>
+        <span class="skill-chip">Quarkus</span>
+        <span class="skill-chip">Django</span>
+        <span class="skill-chip">Streamlit</span>
+        <span class="skill-chip">xUnit</span>
+        <span class="skill-chip">bUnit</span>
+        <span class="skill-chip">JUnit</span>
+        <span class="skill-chip">SQL Server</span>
+        <span class="skill-chip">MongoDB</span>
+        <span class="skill-chip">PostgreSQL</span>
+        <span class="skill-chip">Redis</span>
+        <span class="skill-chip">MySQL</span>
+      </div>
+    </div>
+    <div>
+      <h3>AI & Data</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">OpenAI</span>
+        <span class="skill-chip">MLOps</span>
+        <span class="skill-chip">Spark</span>
+        <span class="skill-chip">Hadoop</span>
+        <span class="skill-chip">TensorFlow</span>
+        <span class="skill-chip">Scikit-learn</span>
       </div>
     </div>
     <div>
       <h3>Soft Skills</h3>
       <div class="skill-cloud">
-        <span class="skill-chip">Problem Solving</span>
-        <span class="skill-chip">Teamwork</span>
+        <span class="skill-chip">Flexibility</span>
         <span class="skill-chip">Proactivity</span>
+        <span class="skill-chip">Collaboration</span>
         <span class="skill-chip">Communication</span>
+        <span class="skill-chip">Positive Environment</span>
+        <span class="skill-chip">Charisma</span>
+        <span class="skill-chip">Teamwork</span>
+      </div>
+    </div>
+    <div>
+      <h3>Languages</h3>
+      <div class="skill-cloud">
+        <span class="skill-chip">Italian (Native)</span>
+        <span class="skill-chip">English (Fluent)</span>
       </div>
     </div>
   </div>
