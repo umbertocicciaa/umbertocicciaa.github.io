@@ -20,7 +20,7 @@ export default function Hero() {
             from notebooks to reliable products that teams love to ship with.
           </p>
           <div className="hero-ctas">
-            <a href="mailto:umbertocicciaa@gmail.com" className="btn-fill">Let&apos;s work together</a>
+            <a href="mailto:umbertocicciaa@icloud.com" className="btn-fill">Let&apos;s work together</a>
             <a href="#projects" className="btn-text">View projects →</a>
           </div>
         </div>
