@@ -1,13 +1,10 @@
-.PHONY: install test build clean
+.PHONY: serve open clean
 
-install:
-	bundle install
+serve:
+	python3 -m http.server 4000
 
-test:
-	bundle exec jekyll serve --livereload --watch --drafts
-
-build:
-	bundle exec jekyll build
+open:
+	open http://localhost:4000
 
 clean:
-	bundle exec jekyll clean
+	rm -rf _site
