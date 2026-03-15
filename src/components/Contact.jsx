@@ -23,8 +23,8 @@ export default function Contact() {
           to turn ML projects into resilient products.
         </p>
         <div className="c-links">
-          <a href="mailto:umbertocicciaa@icloud.com" className="c-link">
-            umbertocicciaa@icloud.com <span>↗</span>
+          <a href="mailto:umbertociccia@icloud.com" className="c-link">
+            umbertociccia@icloud.com <span>↗</span>
           </a>
           <a href="https://github.com/umbertocicciaa" target="_blank" rel="noopener noreferrer" className="c-link">
             GitHub <span>↗</span>
