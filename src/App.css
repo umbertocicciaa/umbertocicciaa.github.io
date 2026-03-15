@@ -357,9 +357,9 @@ nav.scrolled {
 .contact {
   background: var(--text); color: var(--white);
   padding: 9rem 4rem;
-  display: grid; grid-template-columns: 1fr 1fr;
-  gap: 7rem; align-items: start;
+  display: flex; justify-content: center;
 }
+.contact-left { max-width: 760px; width: 100%; text-align: center; }
 .contact .section-label { color: rgba(255,255,255,.3); }
 .contact-left h2 {
   font-family: var(--serif);
@@ -369,9 +369,9 @@ nav.scrolled {
 .contact-left h2 em { font-style: italic; }
 .contact-left p {
   font-size: .95rem; line-height: 1.85; color: rgba(255,255,255,.42);
-  max-width: 36ch; margin-bottom: 3rem;
+  max-width: 36ch; margin: 0 auto 3rem;
 }
-.c-links { display: flex; flex-direction: column; }
+.c-links { display: flex; flex-direction: column; max-width: 560px; margin: 0 auto; }
 .c-link {
   display: flex; align-items: center; justify-content: space-between;
   padding: 1.1rem 0; border-top: 1px solid rgba(255,255,255,.1);
@@ -381,32 +381,6 @@ nav.scrolled {
 .c-link:last-child { border-bottom: 1px solid rgba(255,255,255,.1); }
 .c-link:hover { color: var(--white); }
 .c-link span { opacity: .3; }
-.contact-form { display: flex; flex-direction: column; }
-.f-field {
-  display: flex; flex-direction: column;
-  padding: 1.5rem 0; border-bottom: 1px solid rgba(255,255,255,.1);
-}
-.f-field:first-child { border-top: 1px solid rgba(255,255,255,.1); }
-.f-field label {
-  font-size: .62rem; letter-spacing: .18em; text-transform: uppercase;
-  color: rgba(255,255,255,.28); margin-bottom: .6rem;
-}
-.f-field input, .f-field textarea {
-  background: transparent; border: none; outline: none;
-  font-family: var(--sans); font-size: 1rem; font-weight: 300;
-  color: var(--white); resize: none; line-height: 1.5;
-}
-.f-field input::placeholder, .f-field textarea::placeholder { color: rgba(255,255,255,.18); }
-.f-submit {
-  margin-top: 2.5rem; align-self: flex-start;
-  background: var(--white); color: var(--text); border: none;
-  font-family: var(--sans); font-size: .78rem; font-weight: 400;
-  letter-spacing: .1em; text-transform: uppercase;
-  padding: 1rem 2.2rem; cursor: pointer;
-  transition: background .25s, color .25s;
-}
-.f-submit:hover { background: var(--accent); color: var(--white); }
-.f-submit.sent { background: #1a4a7a; color: var(--white); }
 
 /* ── FOOTER ── */
 footer {
@@ -444,7 +418,7 @@ footer {
   .project-row { padding: 1.75rem 1.75rem; grid-template-columns: 40px 1fr 24px; gap: 1rem; }
   .certifications,.blog { padding: 5rem 1.75rem; }
   .cert-grid,.blog-grid { grid-template-columns: 1fr; }
-  .contact { padding: 5rem 1.75rem; grid-template-columns: 1fr; gap: 4rem; }
+  .contact { padding: 5rem 1.75rem; }
   footer { padding: 1.5rem 1.75rem; flex-direction: column; gap: .75rem; text-align: center; }
   .f-nav { justify-content: center; flex-wrap: wrap; }
   body { cursor: auto; }
