@@ -1,10 +1,16 @@
-.PHONY: serve open clean
+.PHONY: install dev build preview clean
 
-serve:
-	python3 -m http.server 4000
+install:
+	npm install
 
-open:
-	open http://localhost:4000
+dev:
+	npm run dev
+
+build:
+	npm run build
+
+preview:
+	npm run preview
 
 clean:
-	rm -rf _site
+	rm -rf dist node_modules
