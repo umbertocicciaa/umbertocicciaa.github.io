@@ -6,9 +6,9 @@ export default function Blog() {
   return (
     <section className="blog" id="blog">
       <div className="blog-header reveal">
-        <h2>Latest<br /><em>Writing</em></h2>
+        <h2>Latest<br /><em>Notes</em></h2>
         <a href={BLOG_URL} target="_blank" rel="noopener noreferrer" className="btn-text">
-          All posts →
+          All notes →
         </a>
       </div>
       <div className="blog-grid">
@@ -23,7 +23,7 @@ export default function Blog() {
             <div className="blog-date">{p.date}</div>
             <div className="blog-title">{p.title}</div>
             <div className="blog-excerpt">{p.excerpt}</div>
-            <div className="blog-read">Read post ↗</div>
+            <div className="blog-read">Read note ↗</div>
           </a>
         ))}
       </div>

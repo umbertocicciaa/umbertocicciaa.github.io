@@ -10,7 +10,7 @@ export default function Experience() {
         </div>
         <p>
           From software engineering internships to building sovereign cloud infrastructure for Europe
-          at AWS — each role has deepened both technical depth and cross-team leadership.
+          at AWS. Each role has deepened both technical depth and cross-team leadership.
         </p>
       </div>
 

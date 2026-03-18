@@ -16,7 +16,7 @@ export default function Hero() {
         </div>
         <div className="hero-right">
           <p className="hero-desc">
-            I build production-ready ML platforms and resilient cloud infrastructure — taking ideas
+            I build production-ready ML platforms and resilient cloud infrastructure, taking ideas
             from notebooks to reliable products that teams love to ship with.
           </p>
           <div className="hero-ctas">

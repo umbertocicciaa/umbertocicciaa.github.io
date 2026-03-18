@@ -15,13 +15,13 @@ export default function About() {
       </div>
       <div className="about-right reveal">
         <p className="about-bio">
-          Hi, I&apos;m Umberto — a <strong>System &amp; Cloud Engineer</strong> at Amazon Web Services,
+          Hi, I&apos;m Umberto, a <strong>System &amp; Cloud Engineer</strong> at Amazon Web Services,
           currently building AWS&apos;s first European Sovereign Cloud. I specialise in taking ideas
           from notebooks to reliable, observable products at scale.
         </p>
         <p className="about-bio">
           From opinionated MLOps frameworks and distributed runtimes, to hybrid multi-cloud
-          architectures and developer tooling — I focus on systems that are resilient, cost-efficient,
+          architectures and developer tooling, I focus on systems that are resilient, cost-efficient,
           and genuinely enjoyable to work with.
         </p>
         <p className="about-bio">
