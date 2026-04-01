@@ -1,9 +1,9 @@
 const PILLS = ['Kubernetes','Terraform','AWS','GCP','Azure','MLOps','Docker','GitOps','Python','Go','Crossplane','CI/CD','Istio','K3s']
 
 const STATS = [
-  { num: '4+',  lbl: ['Years of', 'experience'] },
+  { num: '3+',  lbl: ['Years of', 'experience'] },
   { num: '12+', lbl: ['Open source', 'projects'] },
-  { num: '8',   lbl: ['Cloud', 'certifications'] },
+  { num: '10+',   lbl: ['Cloud', 'certifications'] },
 ]
 
 export default function About() {
