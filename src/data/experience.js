@@ -4,9 +4,9 @@ export const experiences = [
     title: 'System Engineer',
     company: 'Amazon Web Services (AWS)',
     bullets: [
-      "Built and delivered AWS's first European Sovereign Cloud (EUSC), enabling EU customers to run secure, compliant, and fully locally hosted workloads.",
-      'Owned operations and lifecycle management of AWS IREO and AWS DNS infrastructure, including Amazon Route 53, ensuring high availability and compliance-driven isolation.',
-      'Partnered with multiple AWS service teams to own, deploy, and optimise core cloud services, improving reliability, scalability, and operational readiness.',
+      "Built and delivered AWS’s first European Sovereign Cloud (EUSC), enabling EU customers to operate fully compliant, in-region workloads while meeting stringent data residency and regulatory standards.",
+      'Led operations and reliability of Amazon Route 53 and dependent services in the European Sovereign Cloud, delivering 100% SLA availability via full lifecycle ownership, incident response, and RCA-driven improvements.',
+      'Led operations and lifecycle management of AWS IREO, improving reliability and ensuring highly available, fault-tolerant, compliance-isolated infrastructure for sovereign workloads.',
     ],
   },
   {
