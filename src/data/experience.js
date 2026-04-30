@@ -4,6 +4,7 @@ export const experiences = [
     title: 'System Engineer',
     company: 'Amazon Web Services (AWS)',
     bullets: [
+      "Led end-to-end development of DNSSEC for Route53 in AWS European Sovereign Cloud (eusc-de-east-1), driving 100+ cross-repo changes across 15+ services, modifying 6 pipelines to enable compliant, production-grade secure DNS shipping GA 5 weeks ahead of plan.",
       "Built and delivered AWS’s first European Sovereign Cloud (EUSC), enabling EU customers to operate fully compliant, in-region workloads while meeting stringent data residency and regulatory standards.",
       'Led operations and reliability of Amazon Route 53 and dependent services in the European Sovereign Cloud, delivering 100% SLA availability via full lifecycle ownership, incident response, and RCA-driven improvements.',
       'Led operations and lifecycle management of AWS IREO, improving reliability and ensuring highly available, fault-tolerant, compliance-isolated infrastructure for sovereign workloads.',
