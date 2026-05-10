@@ -20,7 +20,7 @@ export const posts = [
     href: `${BLOG}/posts/ruby-notes/`,
   },
   {
-    date: 'Feb 9, 2026 · 8 min',
+    date: 'Feb 9, 2026 · 27 min',
     title: 'System Design Fundamentals',
     excerpt: 'Comprehensive notes on system design fundamentals: scaling, caching, networking, APIs, proxies, load balancing, storage, and more.',
     href: `${BLOG}/posts/system-design-notes/`,

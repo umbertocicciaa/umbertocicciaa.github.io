@@ -1,5 +1,13 @@
-const PILLS = ['Kubernetes','Terraform','AWS','GCP','Azure','MLOps','Docker','GitOps','Python','Go','Crossplane','CI/CD','Istio','K3s']
-
+const PILLS = [
+  'Kubernetes', 'Terraform', 'AWS', 'GCP', 'Azure', 'Jenkins', 'Docker', 'Python', 'Go', 'Crossplane', 'CI/CD', 'Istio', 'K3s', 'Java',
+  'C#', 'Bash', 'C', 'TypeScript', 'JavaScript', 'GitOps', 'MLOps', 'GitLab CI/CD', 'GitHub Actions', 'Git',
+  'A/B', 'Canary', 'Blue/Green', 'SSH protocol', 'OpenSSL library', 'User and group management', 'File permissions and access control',
+  'System monitoring', 'Log analysis', 'Configuring and troubleshooting system and network service', 'Application deployment and server process management',
+  'Package management (apt)', 'TCP', 'UDP', 'ISO/OSI', 'DNS', 'DHCP', 'IPv4', 'Routing', 'HTTP', 'HTTPS', 'MTU', 'Firewall', 'NAT',
+  'Angular', 'React', 'Blazor', 'HTML', 'CSS', 'GoJS', 'jQuery', 'Bootstrap', 'Angular Material', 'Syncfusion',
+  '.NET', '.NET Core', 'ASP.NET MVC', 'ASP.NET Core', 'Spring Boot', 'Quarkus', 'Django', 'Streamlit', 'xUnit', 'bUnit', 'JUnit', 'SQL Server',
+  'MongoDB', 'PostgreSQL', 'Redis', 'MySQL', 'OpenAI', 'Spark', 'Hadoop', 'TensorFlow', 'Scikit-learn'
+]
 const STATS = [
   { num: '3+',  lbl: ['Years of', 'experience'] },
   { num: '12+', lbl: ['Open source', 'projects'] },
