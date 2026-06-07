@@ -5,6 +5,5 @@ export const projects = [
   { num: '04', name: 'ChatGPT CLI', tags: ['Go', 'OpenAI', 'CLI'], href: 'https://github.com/umbertocicciaa/chatgpt-cli' },
   { num: '05', name: 'Homelab', tags: ['K3s', 'Grafana', 'Traefik', 'Raspberry Pi'], href: 'https://github.com/umbertocicciaa/homelab-utils' },
   { num: '06', name: 'AWS MLOps', tags: ['AWS', 'SageMaker', 'Terraform', 'Streamlit'], href: 'https://github.com/umbertocicciaa/aws-mlops' },
-  { num: '07', name: 'QuestMasterAI', tags: ['Python', 'OpenAI', 'GitHub Actions', 'Docker'], href: 'https://github.com/umbertocicciaa/QuestMasterAI' },
-  { num: '09', name: 'SongFinder', tags: ['Kotlin', 'Android', 'Genius API', 'SQLite'], href: 'https://github.com/umbertocicciaa/SongFinder' },
+  { num: '07', name: 'SongFinder', tags: ['Kotlin', 'Android', 'Genius API', 'SQLite'], href: 'https://github.com/umbertocicciaa/SongFinder' },
 ]
