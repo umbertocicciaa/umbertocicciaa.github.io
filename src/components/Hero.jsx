@@ -1,4 +1,4 @@
-const BADGES = ['Cloud Engineering', 'System Engineering', 'MLOps']
+const BADGES = ['Cloud Engineering', 'System Development Engineering', 'MLOps']
 
 export default function Hero() {
   return (

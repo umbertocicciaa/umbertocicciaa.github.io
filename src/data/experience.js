@@ -1,7 +1,7 @@
 export const experiences = [
   {
     period: ['November 2025 -', 'Present'],
-    title: 'System Engineer',
+    title: 'System Development Engineer',
     company: 'Amazon Web Services (AWS)',
     bullets: [
       "Unblocked a strategic customer launch by delivering DNSSEC support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer to migrate without modifying their existing infrastructure.",
