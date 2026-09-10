@@ -21,7 +21,6 @@ export default function Hero() {
           </p>
           <div className="hero-ctas">
             <a href="mailto:umbertociccia@icloud.com" className="btn-fill">Let&apos;s work together</a>
-            <a href="#projects" className="btn-text">View projects →</a>
           </div>
         </div>
       </div>

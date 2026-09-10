@@ -70,7 +70,6 @@ export default function App() {
         <Hero />
         <About />
         <Experience />
-        <Projects />
         <Certifications />
         <Blog />
         <Contact />

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const NAV_SECTIONS = ['about', 'experience', 'projects', 'certifications', 'blog', 'contact']
+const NAV_SECTIONS = ['about', 'experience', 'certifications', 'blog', 'contact']
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)

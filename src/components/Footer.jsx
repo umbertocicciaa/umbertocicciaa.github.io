@@ -1,4 +1,4 @@
-const SECTIONS = ['about', 'experience', 'projects', 'blog', 'contact']
+const SECTIONS = ['about', 'experience', 'blog', 'contact']
 
 export default function Footer() {
   return (
