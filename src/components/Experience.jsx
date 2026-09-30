@@ -23,9 +23,6 @@ export default function Experience() {
             <div className="exp-content">
               <h3>{exp.title}</h3>
               <div className="exp-company">{exp.company}</div>
-              <ul className="exp-bullets">
-                {exp.bullets.map((b, i) => <li key={i}>{b}</li>)}
-              </ul>
             </div>
           </div>
         ))}
